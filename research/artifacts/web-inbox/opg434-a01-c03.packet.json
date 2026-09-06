@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "channel": "chatgpt-web-github-issue-pr-writer",
+  "repository": "vibemathing/problem-opg-434-weak-pentagon",
+  "repository_identity": {
+    "binding_state": "verified",
+    "database_id": 1358762816,
+    "node_id": "R_kgDOUP0TQA",
+    "default_branch": "main"
+  },
+  "problem_id": "problem:opg-434-weak-pentagon",
+  "problem_contract_sha256": "60124bd981c32b7e5ba91955bbdaa76e2dfebf984722e144a589fceace0f7ba5",
+  "harness_snapshot_sha256": "f7c2791de06bb0581e1e591b73638e70206fb34a0ff7282925627607be8d8a7a",
+  "base_revision": "3f43a8cfbd895f55be52d2219c25727a93c9e154",
+  "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+  "attempt_id": "attempt:web-20260906-opg434-a01",
+  "route_id": "route:odd-cycle-transversal-equivalence-v1",
+  "graph_id": "graph:opg434-initial-v1",
+  "obligation_id": "obligation:opg434-five-transversals-equivalence",
+  "generator": {
+    "principal": "chatgpt-web-github",
+    "model_label": "GPT-6 Astra Pro",
+    "model_fingerprint_status": "unverified"
+  },
+  "transport": {
+    "branch": "web/attempt-opg434-a01-c03-certificates",
+    "issue_number": 3,
+    "issue_url": "https://github.com/vibemathing/problem-opg-434-weak-pentagon/issues/3",
+    "pull_request_number": null,
+    "pull_request_url": null
+  },
+  "objective": "给出固定着色的正负证书和存在性问题的两种精确布尔编码，以明确的三正则图见证排除省略第五项检查的错误推论。",
+  "candidate_artifacts": [
+    {
+      "candidate_id": "candidate:opg434-a01-c03-certificates",
+      "kind": "proof",
+      "locator": "research/artifacts/candidates/opg434-a01-c03-certificates.md",
+      "sha256": "f2ff682510e26210e0d4b89233209f18e386f1674439cb30d9cb95e6edb86243"
+    }
+  ],
+  "atomic_claims": [
+    {
+      "claim_id": "claim:opg434-c03-fixed-certificates",
+      "text": "固定着色合法当且仅当存在五个逐边满足异位条件的二分位函数；非法着色可由缺色奇圈见证。",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg434-c03-faithful-cnf",
+      "text": "使用5(n+m)个变量和21m条子句的公式，可满足当且仅当存在合法五色赋值。",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg434-c03-four-bit-cnf",
+      "text": "四位顶点与异或差异编码使用4(n+m)个变量和22m条子句，表达同一个存在性问题。",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg434-c03-fixed-four-fails",
+      "text": "5-棱柱上有赋值使前四个删色图二分而第五个非二分，故固定着色验收不能直接省略第五项。",
+      "status": "candidate"
+    }
+  ],
+  "assumptions": [
+    "G 为有限简单图，n=|V|、m=|E|；原题实例另验无三角形三正则。",
+    "着色是 E 到五元颜色集的函数，不要求 proper 或满射。",
+    "引用 c01/c02 的纸面候选作为逻辑依赖，不将其当作已验收 Evidence。"
+  ],
+  "risks": [
+    "未执行 BFS、SAT、枚举或内核；子句数量来自所给公式的计数。",
+    "一个着色的失败不能充当图不存在任何着色的证据。",
+    "四位存在性编码可能重构颜色，不能直接验收原给定颜色。",
+    "未来求解器的结果还需证书重放、图类检查和陈述忠实性审计。"
+  ],
+  "open_obligations": [
+    "obligation:opg434-five-transversals-equivalence",
+    "obligation:opg434-root"
+  ],
+  "failed_route_proposal": null,
+  "source_refs": [
+    {
+      "repository": "vibemathing/problem-opg-434-weak-pentagon",
+      "path": "research/records/obligation-graphs.jsonl",
+      "revision": "3f43a8cfbd895f55be52d2219c25727a93c9e154",
+      "relation": "exact"
+    },
+    {
+      "repository": "vibemathing/problem-opg-434-weak-pentagon",
+      "path": "research/artifacts/candidates/opg434-a01-c01-equivalence.md",
+      "revision": "3f43a8cfbd895f55be52d2219c25727a93c9e154",
+      "relation": "exact"
+    },
+    {
+      "repository": "vibemathing/problem-opg-434-weak-pentagon",
+      "path": "research/artifacts/candidates/opg434-a01-c02-normalization.md",
+      "revision": "3f43a8cfbd895f55be52d2219c25727a93c9e154",
+      "relation": "exact"
+    }
+  ],
+  "requested_verification": [
+    "kernel_check",
+    "axiom_escape_audit",
+    "statement_faithfulness"
+  ],
+  "verdict": "candidate_only",
+  "created_at": "2026-09-06T07:52:57Z"
+}
