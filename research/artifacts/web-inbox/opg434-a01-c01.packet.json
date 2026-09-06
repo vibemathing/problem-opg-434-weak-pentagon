@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1.0",
+  "channel": "chatgpt-web-github-issue-pr-writer",
+  "repository": "vibemathing/problem-opg-434-weak-pentagon",
+  "repository_identity": {
+    "binding_state": "verified",
+    "database_id": 1358762816,
+    "node_id": "R_kgDOUP0TQA",
+    "default_branch": "main"
+  },
+  "problem_id": "problem:opg-434-weak-pentagon",
+  "problem_contract_sha256": "60124bd981c32b7e5ba91955bbdaa76e2dfebf984722e144a589fceace0f7ba5",
+  "harness_snapshot_sha256": "f7c2791de06bb0581e1e591b73638e70206fb34a0ff7282925627607be8d8a7a",
+  "base_revision": "aa9fc64c4e7b9c9d841f2a53c480169038b18bdf",
+  "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+  "attempt_id": "attempt:web-20260906-opg434-a01",
+  "route_id": "route:odd-cycle-transversal-equivalence-v1",
+  "graph_id": "graph:opg434-initial-v1",
+  "obligation_id": "obligation:opg434-five-transversals-equivalence",
+  "generator": {
+    "principal": "chatgpt-web-github",
+    "model_label": "GPT-6 Astra Pro",
+    "model_fingerprint_status": "unverified"
+  },
+  "transport": {
+    "branch": "web/attempt-opg434-a01-c01-equivalence",
+    "issue_number": 3,
+    "issue_url": "https://github.com/vibemathing/problem-opg-434-weak-pentagon/issues/3",
+    "pull_request_number": 4,
+    "pull_request_url": "https://github.com/vibemathing/problem-opg-434-weak-pentagon/pull/4"
+  },
+  "objective": "严格证明五边着色条件与五个奇圈边横截集的有标号分拆等价，显式处理生成子图、空颜色类、5-圈推论及 properness 的区别。",
+  "candidate_artifacts": [
+    {
+      "candidate_id": "candidate:opg434-a01-c01-equivalence",
+      "kind": "proof",
+      "locator": "research/artifacts/candidates/opg434-a01-c01-equivalence.md",
+      "sha256": "fdf9906237d573600ce8d693303da0807158b1a68713de7d82499b6c8775db02"
+    }
+  ],
+  "atomic_claims": [
+    {
+      "claim_id": "claim:opg434-c01-cycle-transfer",
+      "text": "H_i 的奇圈恰对应 G 中避开颜色类 F_i 的奇圈，顶点及长度不变。",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg434-c01-equivalence",
+      "text": "对每个 i，H_i 二分当且仅当 F_i 击中 G 的每个奇圈。",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg434-c01-labelled-partition",
+      "text": "颜色函数与允许空项的有标号五元分拆互相对应；逐色横截条件给出原条件的存在性重述。",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg434-c01-rainbow-five",
+      "text": "合法赋值的每个5-圈五色各出现一次；该局部条件与 properness 不足以替代所有奇圈条件。",
+      "status": "candidate"
+    }
+  ],
+  "assumptions": [
+    "G 为有限简单图；全称原题限制到无三角形三正则图。",
+    "c:E(G)->[5] 不要求 proper 或满射。",
+    "删除颜色类只删边并保留全部顶点。",
+    "采用有限图二分当且仅当无奇圈；候选内提供纸面证明。"
+  ],
+  "risks": [
+    "这是纸面候选，没有数学执行或内核验收。",
+    "每个颜色类是奇圈边横截集，不能直接推断是精确的 cut complement。",
+    "全称存在性即 root 尚未由本引理给出。",
+    "全部外部来源仅用于术语及陈述核对，没有完成现状或新颖性审计。"
+  ],
+  "open_obligations": [
+    "obligation:opg434-five-transversals-equivalence",
+    "obligation:opg434-root"
+  ],
+  "failed_route_proposal": null,
+  "source_refs": [
+    {
+      "repository": "vibemathing/problem-opg-434-weak-pentagon",
+      "path": "problem-library/records/canonical-problems.jsonl",
+      "revision": "aa9fc64c4e7b9c9d841f2a53c480169038b18bdf",
+      "relation": "exact"
+    },
+    {
+      "repository": "vibemathing/problem-opg-434-weak-pentagon",
+      "path": "research/records/obligation-graphs.jsonl",
+      "revision": "aa9fc64c4e7b9c9d841f2a53c480169038b18bdf",
+      "relation": "exact"
+    },
+    {
+      "repository": "vibemathing/problem-opg-434-weak-pentagon",
+      "path": "research/artifacts/source-notes/opg434-a01-c01-statement-comparison.md",
+      "revision": "fbc9e884cb662404e081b29734583b5e82c97112",
+      "relation": "prior_art"
+    }
+  ],
+  "requested_verification": [
+    "kernel_check",
+    "axiom_escape_audit",
+    "statement_faithfulness"
+  ],
+  "verdict": "candidate_only",
+  "created_at": "2026-09-06T07:30:53Z"
+}
