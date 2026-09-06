@@ -86,14 +86,15 @@ If x and y are joined in H by an odd-length path all of whose edges have the
 same generator s_k, their labels remain adjacent after ANY one legal uniform
 subset translation f_{X,d}.
 
-Indeed f(x)+f(y)=s_k. If both endpoints lie on the same side of X, this
+Indeed f(x)+f(y)=s_k. A zero shift changes nothing. For a nonzero shift,
+if both endpoints lie on the same side of X, this
 difference does not change. Otherwise the path has a cut edge of color s_k.
 The classification in Section 1 then forces d=kj for some j!=k, and the new
 endpoint difference is s_k+kj=s_j. It is still a generator.
 
 This covers supports of arbitrary size and the entire list of possible d.
-Applying a global target automorphism before or after the switch does not
-help: automorphisms preserve adjacency and permute generator directions.
+Applying a global affine target automorphism before or after the switch does
+not help: these automorphisms preserve adjacency and permute generator directions.
 The assertion is for ONE step. A first switch can destroy monochromaticity,
 after which a later switch need not preserve the old terminal adjacency.
 
@@ -164,7 +165,7 @@ Each nontrivial proper layer subset has at least two transitions.
 If both are proper nonempty, the cut has size at least 4. If just one is,
 the cut has size at least 2+1=3. If neither is, a nonempty proper U must
 be one entire layer, whose cut has size 5. Thus every nontrivial cut has
-size at least 3, and a vertex cut has size 3. No bridge or two-edge cut
+size at least 3, and a cut isolating one vertex has size 3. No bridge or two-edge cut
 explains this particular one-step failure.
 
 For avoidance of a false root conclusion, an explicit FULL map of G is:
