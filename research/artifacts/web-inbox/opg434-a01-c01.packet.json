@@ -26,8 +26,8 @@
     "branch": "web/attempt-opg434-a01-c01-equivalence",
     "issue_number": 3,
     "issue_url": "https://github.com/vibemathing/problem-opg-434-weak-pentagon/issues/3",
-    "pull_request_number": null,
-    "pull_request_url": null
+    "pull_request_number": 4,
+    "pull_request_url": "https://github.com/vibemathing/problem-opg-434-weak-pentagon/pull/4"
   },
   "objective": "严格证明五边着色条件与五个奇圈边横截集的有标号分拆等价，显式处理生成子图、空颜色类、5-圈推论及 properness 的区别。",
   "candidate_artifacts": [
