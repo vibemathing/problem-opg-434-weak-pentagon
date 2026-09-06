@@ -208,72 +208,101 @@ This file is generated from repository truth and bounded for the web channel. It
     "acceptance": {
       "policy": "solution-admission-v1"
     },
-    "aliases": [],
+    "aliases": [
+      "Open Problem Garden OPG-434"
+    ],
     "allowed_axioms": [
-      "none"
+      "finite-graph-basic",
+      "finite-combinatorics"
     ],
     "assumptions": [
-      "This record must never be treated as an active research problem."
+      "All graphs and digraphs are finite and simple unless the statement explicitly says otherwise."
     ],
     "constraints": {
       "allowed_adapters": [
-        "template-validation-v1"
+        "cubic-graph-enumerator-v1",
+        "edge-color-csp-v1",
+        "lean-obligation-v1"
       ],
       "allowed_methods": [
-        "discovery"
+        "discovery",
+        "derivation",
+        "computation",
+        "proof",
+        "formalization"
       ],
-      "max_attempts": 1,
+      "max_attempts": 20,
       "runtime": {
-        "max_output_bytes": 65536,
-        "max_retries": 1,
-        "max_transitions": 10,
-        "timeout_seconds": 60
+        "max_output_bytes": 5242880,
+        "max_retries": 3,
+        "max_transitions": 300,
+        "timeout_seconds": 1800
       }
     },
-    "created_at": "2026-09-06T00:00:00Z",
+    "created_at": "2026-09-06T03:30:00Z",
     "definitions": [
       {
-        "definition": "A non-admitted draft record used only to validate the physical public repository template.",
-        "term": "template placeholder"
+        "definition": "An assignment of one of five colors to every edge; properness is not assumed unless derived.",
+        "term": "edge coloring by five colors"
+      },
+      {
+        "definition": "The spanning subgraph (V(G),{e∈E(G):c(e)≠i}).",
+        "term": "complement of color class i"
       }
     ],
     "domain": {
-      "description": "Template-only placeholder domain; not a mathematical research question.",
+      "description": "Finite simple 3-regular graphs containing no triangle.",
       "objects": [
-        "template-placeholder"
+        "triangle-free cubic graph",
+        "5-edge-coloring",
+        "bipartite complement color class"
       ]
     },
-    "lifecycle": "draft",
+    "lifecycle": "active",
     "msc": [
-      "00A00"
+      "05C15"
     ],
-    "problem_id": "problem:template-placeholder",
+    "problem_id": "problem:opg-434-weak-pentagon",
     "quantifiers": [
       {
-        "domain": "a reviewed public canonical ProblemContract supplied by the repository builder",
-        "kind": "find",
+        "domain": "finite simple triangle-free cubic graphs",
+        "kind": "forall",
         "variables": [
-          "replacement_problem"
+          "G"
+        ]
+      },
+      {
+        "domain": "edge colorings c:E(G)→{1,2,3,4,5}",
+        "kind": "exists",
+        "variables": [
+          "c"
+        ]
+      },
+      {
+        "domain": "colors i∈{1,2,3,4,5}",
+        "kind": "forall",
+        "variables": [
+          "i"
         ]
       }
     ],
     "schema_version": "1.0.0",
     "sources": [
       {
-        "retrieved_at": "2026-09-06T00:00:00Z",
-        "source": "Vibe Mathing public Web Harness",
-        "source_record_id": "public-template-placeholder-v1",
-        "url": "https://github.com/vibemathing/vibe-mathing-problem-public-template"
+        "retrieved_at": "2026-09-02T00:06:43Z",
+        "source": "UnsolvedMath",
+        "source_record_id": "unsolvedmath-opg-434-fb1bc60ee419",
+        "url": "https://www.unsolvedmath.com/problems/OPG-434"
       }
     ],
     "statement": {
       "language": "en",
-      "text": "This is a non-research placeholder. Replace it with exactly one reviewed public ProblemContract before creating a public problem repository.",
+      "text": "Can the edges of every finite triangle-free cubic graph G be assigned five colors so that, for each color, the spanning subgraph formed by all edges of the other four colors is bipartite?",
       "version": 1
     },
-    "title": "Vibe Mathing public problem repository template placeholder",
-    "updated_at": "2026-09-06T00:00:00Z"
+    "title": "Weak pentagon problem",
+    "updated_at": "2026-09-06T03:30:00Z"
   },
-  "problem_contract_sha256": "e64cd03254e03dd661eade23243c3c21793fc2d8bffa2d33c172cf8ed2e7f940"
+  "problem_contract_sha256": "60124bd981c32b7e5ba91955bbdaa76e2dfebf984722e144a589fceace0f7ba5"
 }
 ```
