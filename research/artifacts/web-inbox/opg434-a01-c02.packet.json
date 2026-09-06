@@ -26,8 +26,8 @@
     "branch": "web/attempt-opg434-a01-c02-normalization",
     "issue_number": 3,
     "issue_url": "https://github.com/vibemathing/problem-opg-434-weak-pentagon/issues/3",
-    "pull_request_number": null,
-    "pull_request_url": null
+    "pull_request_number": 5,
+    "pull_request_url": "https://github.com/vibemathing/problem-opg-434-weak-pentagon/pull/5"
   },
   "objective": "细化横截集等价：正规化四个不交奇圈边横截集为五个割补集分拆，构造四位顶点证书，并以合同图类内的明确见证排除逐项相等的错误加强。",
   "candidate_artifacts": [
