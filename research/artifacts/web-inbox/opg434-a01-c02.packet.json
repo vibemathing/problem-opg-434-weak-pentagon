@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1.0",
+  "channel": "chatgpt-web-github-issue-pr-writer",
+  "repository": "vibemathing/problem-opg-434-weak-pentagon",
+  "repository_identity": {
+    "binding_state": "verified",
+    "database_id": 1358762816,
+    "node_id": "R_kgDOUP0TQA",
+    "default_branch": "main"
+  },
+  "problem_id": "problem:opg-434-weak-pentagon",
+  "problem_contract_sha256": "60124bd981c32b7e5ba91955bbdaa76e2dfebf984722e144a589fceace0f7ba5",
+  "harness_snapshot_sha256": "f7c2791de06bb0581e1e591b73638e70206fb34a0ff7282925627607be8d8a7a",
+  "base_revision": "5ca1f7011229855ba1681f33d9ec68e0dbba96f4",
+  "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+  "attempt_id": "attempt:web-20260906-opg434-a01",
+  "route_id": "route:odd-cycle-transversal-equivalence-v1",
+  "graph_id": "graph:opg434-initial-v1",
+  "obligation_id": "obligation:opg434-five-transversals-equivalence",
+  "generator": {
+    "principal": "chatgpt-web-github",
+    "model_label": "GPT-6 Astra Pro",
+    "model_fingerprint_status": "unverified"
+  },
+  "transport": {
+    "branch": "web/attempt-opg434-a01-c02-normalization",
+    "issue_number": 3,
+    "issue_url": "https://github.com/vibemathing/problem-opg-434-weak-pentagon/issues/3",
+    "pull_request_number": null,
+    "pull_request_url": null
+  },
+  "objective": "细化横截集等价：正规化四个不交奇圈边横截集为五个割补集分拆，构造四位顶点证书，并以合同图类内的明确见证排除逐项相等的错误加强。",
+  "candidate_artifacts": [
+    {
+      "candidate_id": "candidate:opg434-a01-c02-normalization",
+      "kind": "proof",
+      "locator": "research/artifacts/candidates/opg434-a01-c02-normalization.md",
+      "sha256": "c2088f132ced65d8c8ba9891a63ce6d4f66ca7dbeff208c29981b8407b9917ef"
+    }
+  ],
+  "atomic_claims": [
+    {
+      "claim_id": "claim:opg434-c02-shrink",
+      "text": "每个奇圈边横截集包含一个完整割的补集。",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg434-c02-normalize-four",
+      "text": "存在四个两两不交奇圈边横截集，当且仅当存在五个分拆 E 的割补集，因而等价于合法五色赋值的存在性。",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg434-c02-binary-certificate",
+      "text": "合法赋值的存在性等价于四位顶点标号，使任意边端点的汉明距离为3或4；可显式恢复五色赋值及二分证书。",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg434-c02-parity-and-palette-boundary",
+      "text": "正规化后任意圈上每个色类交数与圈长同奇偶；原赋值未必满足。该偶次补集论证不能原样扩展到偶数调色板。",
+      "status": "candidate"
+    }
+  ],
+  "assumptions": [
+    "有限简单图；颜色分拆允许空项，不要求 proper。",
+    "二分图当且仅当没有奇圈，如 c01 明确证明。",
+    "完整割 δ(U) 包含所有跨 U 的边；割补集不同于一般横截集。",
+    "全部推导只用有限图与有限组合基础。"
+  ],
+  "risks": [
+    "纸面候选没有执行数学程序或内核。",
+    "正规化可能改变原赋值；固定赋值的强条件不可由存在性等价直接推出。",
+    "原题图类上的全称存在性没有在这里证明。",
+    "来源 PDF 文字已读，但截图请求返回 Cache miss；不依赖图示数据。"
+  ],
+  "open_obligations": [
+    "obligation:opg434-five-transversals-equivalence",
+    "obligation:opg434-root"
+  ],
+  "failed_route_proposal": null,
+  "source_refs": [
+    {
+      "repository": "vibemathing/problem-opg-434-weak-pentagon",
+      "path": "research/records/obligation-graphs.jsonl",
+      "revision": "5ca1f7011229855ba1681f33d9ec68e0dbba96f4",
+      "relation": "exact"
+    },
+    {
+      "repository": "vibemathing/problem-opg-434-weak-pentagon",
+      "path": "research/artifacts/candidates/opg434-a01-c01-equivalence.md",
+      "revision": "5ca1f7011229855ba1681f33d9ec68e0dbba96f4",
+      "relation": "exact"
+    },
+    {
+      "repository": "vibemathing/problem-opg-434-weak-pentagon",
+      "path": "research/artifacts/source-notes/opg434-a01-c02-cut-comparison.md",
+      "revision": "071315b46ad78f190ef5ea1594570808a2a3b157",
+      "relation": "prior_art"
+    }
+  ],
+  "requested_verification": [
+    "kernel_check",
+    "axiom_escape_audit",
+    "statement_faithfulness"
+  ],
+  "verdict": "candidate_only",
+  "created_at": "2026-09-06T07:42:39Z"
+}
