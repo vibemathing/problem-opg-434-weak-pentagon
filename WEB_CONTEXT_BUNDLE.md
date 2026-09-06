@@ -74,7 +74,27 @@ This file is generated from repository truth and bounded for the web channel. It
       "web_status": "active"
     }
   ],
-  "attempts": [],
+  "attempts": [
+    {
+      "artifacts": [],
+      "attempt_id": "attempt:web-20260906-opg434-a01",
+      "claims": [],
+      "completed_at": null,
+      "generator": "chatgpt-web-github",
+      "inputs": [
+        "problem-library/records/canonical-problems.jsonl",
+        "research/records/failed-routes.jsonl"
+      ],
+      "lifecycle": "running",
+      "method": "derivation",
+      "objective": "严格证明五边着色条件的等价重述：对每种颜色 i，删除颜色 i 后的 spanning subgraph 为 bipartite，当且仅当 G 的每个 odd cycle 都至少包含一条颜色 i 的边；因此五个颜色类恰构成 E(G) 的一个分拆且每一类都是 odd-cycle edge transversal。",
+      "obligation_graph_id": "graph:opg434-initial-v1",
+      "problem_contract_sha256": "60124bd981c32b7e5ba91955bbdaa76e2dfebf984722e144a589fceace0f7ba5",
+      "problem_id": "problem:opg-434-weak-pentagon",
+      "route_id": "route:odd-cycle-transversal-equivalence-v1",
+      "started_at": "2026-09-06T05:03:30Z"
+    }
+  ],
   "failed_routes": [],
   "knowledge_operators": [
     {
@@ -203,7 +223,40 @@ This file is generated from repository truth and bounded for the web channel. It
       "source_id": "sagemath"
     }
   ],
-  "obligation_graphs": [],
+  "obligation_graphs": [
+    {
+      "attempt_id": "attempt:web-20260906-opg434-a01",
+      "graph_id": "graph:opg434-initial-v1",
+      "obligations": [
+        {
+          "dependencies": [
+            "obligation:opg434-five-transversals-equivalence"
+          ],
+          "kind": "root_claim",
+          "obligation_id": "obligation:opg434-root",
+          "statement": {
+            "formal_declaration": null,
+            "language": "en",
+            "text": "Can the edges of every finite triangle-free cubic graph G be assigned five colors so that, for each color, the spanning subgraph formed by all edges of the other four colors is bipartite?"
+          },
+          "statement_sha256": "cfaa2e14def9ec857a412ebe2f1a74185dc8326d8f18db3d217af42fdf1459fc"
+        },
+        {
+          "dependencies": [],
+          "kind": "lemma",
+          "obligation_id": "obligation:opg434-five-transversals-equivalence",
+          "statement": {
+            "formal_declaration": null,
+            "language": "zh",
+            "text": "严格证明五边着色条件的等价重述：对每种颜色 i，删除颜色 i 后的 spanning subgraph 为 bipartite，当且仅当 G 的每个 odd cycle 都至少包含一条颜色 i 的边；因此五个颜色类恰构成 E(G) 的一个分拆且每一类都是 odd-cycle edge transversal。"
+          },
+          "statement_sha256": "6a6d7d3eca9ac315d45b701fdb8d157af65896a0c83ac046d2466184f4268a99"
+        }
+      ],
+      "root_obligation_id": "obligation:opg434-root",
+      "route_id": "route:odd-cycle-transversal-equivalence-v1"
+    }
+  ],
   "problem_contract": {
     "acceptance": {
       "policy": "solution-admission-v1"
