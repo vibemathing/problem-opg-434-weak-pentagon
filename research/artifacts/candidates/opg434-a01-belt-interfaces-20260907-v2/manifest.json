@@ -1,0 +1,106 @@
+{
+  "verdict": "candidate_only",
+  "format": "opg434-belt-files-v1",
+  "prefix": "research/artifacts/candidates/opg434-a01-belt-interfaces-20260907-v2",
+  "base_revision": "798cdf4f220a7c419a07e937507ebc5f5f5cb0fd",
+  "files": [
+    {
+      "file": "audit_lifting.py",
+      "bytes": 3915,
+      "sha256": "6af88174d09c919747a57f81396c5d664f694264f531e1faee17256cd4ab01e5",
+      "git_blob": "44b0455993e01b8cae1e9331d965345096281646"
+    },
+    {
+      "file": "certificates.bundle.json",
+      "bytes": 15293,
+      "sha256": "7a77a2fe992e8c26d631d5e366f45791069666e63468d9aa911af794b063fb52",
+      "git_blob": "0fb472509b0639fde54960179dacf40d30cbf930"
+    },
+    {
+      "file": "check_interfaces.py",
+      "bytes": 5258,
+      "sha256": "41d3d4d3de6cabb79739f89287e92bfcb23432a6a1205b6081894af3367f0128",
+      "git_blob": "c58db23413d5d7f13a7798811fcc9554f904c285"
+    },
+    {
+      "file": "checkpoint.json",
+      "bytes": 1731,
+      "sha256": "9a6f9c05842b8ee8111469400de447209cbec31eee00fc256116374c5e81eace",
+      "git_blob": "67a7de79eae350bb38a1afe11892d095b05e42cd"
+    },
+    {
+      "file": "delivery_receipts.bundle.json",
+      "bytes": 5094,
+      "sha256": "5b3a052774fe8811a604ca99602af3ccc4b3b4aee7b1b44fd9775363528f243f",
+      "git_blob": "7389c465193a083d2eda4d4aa8e1250609b3e5f1"
+    },
+    {
+      "file": "enumerate_interfaces.py",
+      "bytes": 4392,
+      "sha256": "7972912fabfb648b907e5a491bee6d68472eaaf723b7fc399cd3c9cfa9387a8c",
+      "git_blob": "826d7031b8bdf4c8d612aa5d80716d2f8234590b"
+    },
+    {
+      "file": "mutation_checks.py",
+      "bytes": 2891,
+      "sha256": "7128e94e1f460a83a16532fa1742f1772f6835e2118a9fe6780f8a7f9425a010",
+      "git_blob": "a6f3955f30494d24a9c660eeebb3303e3b6e62a8"
+    },
+    {
+      "file": "obligations.json",
+      "bytes": 2242,
+      "sha256": "e3176b7e3d6180d63ebd86ccdcfdadcb692bc7066421a96f1b08ae7707d00b5c",
+      "git_blob": "02e8e47ba6d05d2251ae01fb1e37327750717d71"
+    },
+    {
+      "file": "patches.json",
+      "bytes": 975,
+      "sha256": "8a0701c13fa235e3190ead9a9c10072469acd3b0f8c9a4e34a6ddc0a97da9d56",
+      "git_blob": "1150f8dd889f180bb1faebed3271183972ec29d3"
+    },
+    {
+      "file": "report.md",
+      "bytes": 14694,
+      "sha256": "29b0b2ddc546e5cc811d906c778d848e365358e2ffb257199fa789c88c116a96",
+      "git_blob": "4a21fe411691ced8b26345d2494841943656447d"
+    },
+    {
+      "file": "restore_certificates.py",
+      "bytes": 3284,
+      "sha256": "9d44855face0b224d3533dfbc960d3b4a574e298ce9f62634769b3824d776001",
+      "git_blob": "52f8234d52bc45db7c99d5baf2213dfac05200a5"
+    },
+    {
+      "file": "restore_delivery.py",
+      "bytes": 1197,
+      "sha256": "065364903d1b2f012095298e08ea264c5d895cb775b6b29d616559fb52126908",
+      "git_blob": "f1e0e2fbe72e8ac9e946a1ccf1c7677599e990eb"
+    },
+    {
+      "file": "run_bounded.py",
+      "bytes": 3452,
+      "sha256": "bab2ba2e2e85c36a9a6f7d1602dbd4cb47fa802719e238b457f68454f1322716",
+      "git_blob": "0facbe4d4030fabd7c86460495b095f9fba0b4d3"
+    },
+    {
+      "file": "verifier_request.json",
+      "bytes": 3016,
+      "sha256": "139de84a12236bd60c22a21fc2858d642d5f356e8d0ef5fbfcd52361f4e1021d",
+      "git_blob": "c3381a0888b94002d8dc6edbb45cac273b125e42"
+    }
+  ],
+  "logical_receipts": "certificates.bundle.json:files and delivery_receipts.bundle.json:files",
+  "expanded_tables": {
+    "r11": {
+      "rows": 3840,
+      "bytes": 46080,
+      "sha256": "9312539a11c20351d2c964ce6982f90c29385d448c9699fdfdab6361aa98c9a8"
+    },
+    "r12": {
+      "rows": 57600,
+      "bytes": 748800,
+      "sha256": "c8b6bdbf778b20dead848708aa118c55e69b863453820bfc7754d9128690ae08"
+    }
+  },
+  "self_and_packet": "Excluded to avoid circular hashes; bound in final Issue/PR receipts."
+}
