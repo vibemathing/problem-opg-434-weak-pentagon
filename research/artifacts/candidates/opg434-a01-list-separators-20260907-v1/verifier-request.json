@@ -1,0 +1,34 @@
+{
+  "base_revision": "ea7cad35e16393f02a6b5a265e929bca389625a1",
+  "candidate": "candidate:opg434-a01-list-separators-20260907-v1",
+  "code_sha256": "de363c882dc8a5e89170103e1fe06973143a0f65d073e9651640c15a4d2aacd9",
+  "command": [
+    "python3",
+    "replay_request.py",
+    "--execute",
+    "--out",
+    "fresh-replay-directory"
+  ],
+  "inputs": "bundle-index.json binds every exact code, input, result and process receipt",
+  "launch_receipt": null,
+  "no_truth_write": true,
+  "registry_read": "research/verifiers.json at the frozen base contains fixture policies, no compatible launchable list-boundary graph adapter was identified",
+  "required_admission_capabilities": [
+    "kernel_check",
+    "axiom_escape_audit",
+    "statement_faithfulness"
+  ],
+  "required_semantics": [
+    "Joint state completeness, including all feasible internal labels and equality of repeated ports",
+    "All affine witnesses and forbidden pairs; symmetry used only with unrestricted or actually preserved lists",
+    "Vertex-minimum subcubic and vertex-minimum cubic domains are separate",
+    "Cubic cap n-4 is one-way lifting and requires distinct pairwise nonadjacent exterior endpoints",
+    "Graph22 is B-mappable, not a root counterexample",
+    "No extrapolation from any fixed graph to all contract graphs"
+  ],
+  "root_closure": "pending complete universal proof or exact counterexample and registered gate",
+  "status": "executable_request_pending_trusted_lane",
+  "trusted_verifier_id": null,
+  "verdict": "candidate_only",
+  "workflow_read": "Only web-candidate-gate.yml exists; its three gates validate candidate transport, not these mathematical claims"
+}
