@@ -1,0 +1,26 @@
+{
+  "entries": [
+    {
+      "harness_snapshot_sha256": "f7c2791de06bb0581e1e591b73638e70206fb34a0ff7282925627607be8d8a7a",
+      "harness_version": "1.1.2",
+      "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+      "source_manifest_sha256": "97499c98e0774ef58c0be06ff8f3035c89cda1dffb6f9a9d222fb281b049cdb4",
+      "tree_sha256": "70deee8a9c091b58a6e9bfcfceb46bed4af33b986ef3da3b9ada55aba5b850d7"
+    },
+    {
+      "harness_snapshot_sha256": "48f376c84a598661037cb72de14fdda7283ee4c144f1ea478b32b12442fabe08",
+      "harness_version": "1.2.3",
+      "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+      "source_manifest_sha256": "27a22779f4ea8418115002a4a180553b0f23425b69e4deb76f2bd6ae893b2993",
+      "tree_sha256": "a4cc2708a665e495a1e73578367506bc4ade45c1a54eaa05252c73d67920978d"
+    }
+  ],
+  "repository": "vibemathing/problem-opg-434-weak-pentagon",
+  "repository_identity": {
+    "database_id": 1358762816,
+    "default_branch": "main",
+    "node_id": "R_kgDOUP0TQA",
+    "visibility": "public"
+  },
+  "schema_version": "1.0.0"
+}
