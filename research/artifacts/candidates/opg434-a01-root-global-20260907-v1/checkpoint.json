@@ -1,0 +1,23 @@
+{
+  "verdict":"candidate_only",
+  "state":"NONTERMINAL_CHECKPOINT",
+  "repository":"vibemathing/problem-opg-434-weak-pentagon",
+  "base_revision":"798cdf4f220a7c419a07e937507ebc5f5f5cb0fd",
+  "branch":"web/attempt-opg434-a01-belt-lifting-20260907-v1",
+  "issue_number":3,
+  "best_verified_result":null,
+  "best_verified_candidate":null,
+  "best_candidate":"candidate:opg434-a01-root-global-20260907-v1",
+  "r11":{"normalized_states":3840,"complete":true,"witness_per_state":true,"first_failed_state":null,"relation":"a!=d","lifting_order_drop":9},
+  "r12":{"normalized_states":57600,"complete":true,"separately_checked":true,"witness_per_state":true,"first_failed_state":null,"relation":"a!=e and b!=c","lifting_order_drop_at_least":8},
+  "implementation_separation":{"checker_imports_generator":false,"shared_search_core":false,"separate_trust_domain":false},
+  "current_replay":{"processes":6,"exit_codes":[0,0,0,0,0,0],"belt_negative_mutations":24,"belt_positive_mutations":4,"global_negative_controls":2,"receipts":"bundle-index.json"},
+  "lifting_scope":{"preserves_simple":true,"preserves_triangle_free":true,"preserves_subcubic":true,"preserves_cubic":false,"preserves_all_extendible_exterior_restrictions":true,"preserves_girth_five":false,"requires_induced_patch_and_exact_boundary":true},
+  "failed_routes":[{"fingerprint":"82fa86cfb02cd037d5df80983957fa9e2fcbfed8e8c83115750e9570e599d695","scope":"listed structural hypotheses alone imply a pentagon","witness_order":24,"witness_girth":7,"positive_B_map":true,"truth_ledger_modified":false}],
+  "first_open_structural_lemma":"Exploit actual minimum non-B-mappability to force a suitable reduction or simultaneous global chord assignment. The 24-vertex positive graph does not disprove this stronger conditional premise.",
+  "global_control":{"vertices":24,"edges":36,"cnf_variables":384,"cnf_clauses":4057,"fundamental_cycles":13,"all_checked":true,"universal_satisfiability_proved":false},
+  "next_action":"Finish the existing unique PR transaction and Issue readback; continue the global B-map constraint route for remaining minimal candidates, including pentagon-free short-cycle cases. Do not repeat C10, h1, old archives or uniform local repair.",
+  "transport_at_freeze":{"pull_request":null,"checks":"pending final head","merge":null},
+  "open_obligations":["obligation:opg434-five-transversals-equivalence","obligation:opg434-root"],
+  "trusted_closure_receipt":null
+}
