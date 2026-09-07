@@ -1,0 +1,34 @@
+{
+  "verdict": "candidate_only",
+  "status": "RESULT_CANDIDATE_READY",
+  "disposition": "layered-family-audited",
+  "base_revision": "bc0d53de15bb21236483b4d671dda376309c8177",
+  "issue_number": 3,
+  "best_verified_candidate": null,
+  "best_verified_result": null,
+  "best_checked_candidate": "candidate:opg434-a01-layered-replay-20260907-v1",
+  "first_failed_family_lemma": null,
+  "previous_first_gap": "h1 actual bounded graph/map/certificate/mutation replay",
+  "previous_gap_status": "completed_in_local_candidate_runtime",
+  "execution_runs": 4,
+  "exit_codes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "unique_mutations": 13,
+  "open_obligations": [
+    "obligation:opg434-five-transversals-equivalence",
+    "obligation:opg434-root"
+  ],
+  "trusted_admission": "pending; no compatible launchable verifier action found",
+  "failed_routes": [],
+  "next_action": "Trusted replay from verifier_request.json and general-proof statement/axiom/formal auditing; do not repeat C10 or transport old attachments.",
+  "transport_at_freeze": {
+    "branch": "web/attempt-opg434-a01-layered-replay-20260907-v1",
+    "pr": null,
+    "checks": "not yet observed",
+    "merge": null
+  }
+}

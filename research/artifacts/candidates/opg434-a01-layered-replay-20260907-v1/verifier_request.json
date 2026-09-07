@@ -1,0 +1,80 @@
+{
+  "verdict": "candidate_only",
+  "state": "pending_trusted_executor",
+  "requested_capabilities": [
+    "counterexample_check",
+    "statement_faithfulness",
+    "axiom_escape_audit",
+    "kernel_check"
+  ],
+  "trusted_executor": null,
+  "launchable_action": null,
+  "reason": "Registry identities are fixture scoped; only candidate transport workflow exists. No compatible graph/DRUP action is available. Local checks were actually run but share the generating trust domain.",
+  "commands": [
+    [
+      "python3",
+      "research/artifacts/candidates/opg434-a01-layered-replay-20260907-v1/unpack_outputs.py",
+      "--dest",
+      "research/artifacts/candidates/opg434-a01-layered-replay-20260907-v1/restored"
+    ],
+    [
+      "python3",
+      "research/artifacts/candidates/opg434-a01-layered-replay-20260907-v1/run_bounded.py",
+      "--label",
+      "trusted_drup_replay_request",
+      "--directory",
+      "research/artifacts/candidates/opg434-a01-layered-replay-20260907-v1/trusted_drup_run",
+      "--input",
+      "research/artifacts/candidates/opg434-a01-layered-replay-20260907-v1/replay_drup.py",
+      "--",
+      "python3",
+      "research/artifacts/candidates/opg434-a01-layered-replay-20260907-v1/replay_drup.py",
+      "--graph",
+      "research/artifacts/candidates/opg434-a01-layered-replay-20260907-v1/restored/original_run/outputs/h1_graph_and_maps.json",
+      "--cnf",
+      "research/artifacts/candidates/opg434-a01-layered-replay-20260907-v1/restored/certificate_run/outputs/full_graph.cnf",
+      "--drup",
+      "research/artifacts/candidates/opg434-a01-layered-replay-20260907-v1/restored/certificate_run/outputs/full_graph.drup",
+      "--out",
+      "research/artifacts/candidates/opg434-a01-layered-replay-20260907-v1/trusted_drup_run/outputs"
+    ]
+  ],
+  "working_directory": ".",
+  "require_fresh_output_paths": true,
+  "limits": {
+    "cpu_soft_seconds": 35,
+    "cpu_hard_seconds": 36,
+    "wall_seconds": 43,
+    "address_space_bytes": 536870912,
+    "threads": 1,
+    "output_bytes": 4194304
+  },
+  "required_inputs": [
+    {
+      "path": "research/artifacts/candidates/opg434-a01-layered-pentagon-repair-20260907-v1.md",
+      "revision": "bc0d53de15bb21236483b4d671dda376309c8177",
+      "bytes": 14694,
+      "sha256": "c0e9115a80eb09f692fb3c83a52c8002766219b1154970ad21cc29442a5ba9aa",
+      "git_blob": "47194660177840c621a279f8147ac911edbc3e0f",
+      "match": "connector fresh-main bytes"
+    },
+    {
+      "path": "research/artifacts/candidates/opg434-a01-layered-audit-20260907-v1/h1_control.py",
+      "revision": "bc0d53de15bb21236483b4d671dda376309c8177",
+      "bytes": 16481,
+      "sha256": "c6410cfc72d4df236bcb508fec6f43624deda9bf3bc85730580ec64763a08022",
+      "git_blob": "f35a6273825f8ecfd2fac0b991f34d165e8f4c3f",
+      "match": "connector fresh-main bytes"
+    },
+    {
+      "path": "research/artifacts/candidates/opg434-a01-layered-audit-20260907-v1/h1_parity_certificate.json",
+      "revision": "bc0d53de15bb21236483b4d671dda376309c8177",
+      "bytes": 1960,
+      "sha256": "6c7f18946c5d5f3837ddfeaac8788eececab713f60baeec193786cbef91767c8",
+      "git_blob": "265d13b64df4030891bc82b81f743746314ea5eb",
+      "match": "connector fresh-main bytes"
+    }
+  ],
+  "formal_gap": "Formalize general induction, cut classification, map faithfulness and all-height disagreement theorem; no Lean proof claimed.",
+  "admission_boundary": "Only a registered compatible trusted verifier and successful obligation closure gate may advance Evidence/Result/Solution. Do not edit registry or truth records from this candidate."
+}

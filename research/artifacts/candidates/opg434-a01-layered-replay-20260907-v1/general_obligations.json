@@ -1,0 +1,71 @@
+{
+  "verdict": "candidate_only",
+  "matrix": [
+    {
+      "claim": "target",
+      "general_proof": "generator subset relation; U(A) six-cycle and isolated vertices",
+      "finite_control": "all 16 labels / 40 edges",
+      "mutations": "M1,M6",
+      "candidate_disposition": "audit_pass",
+      "trusted_admission": "pending"
+    },
+    {
+      "claim": "exact_messages",
+      "general_proof": "base h=1; arbitrary pair induction h to h+1; child attainment on disjoint trees",
+      "finite_control": "80 pairs at each h=1,2,3; exact h1 source elimination",
+      "mutations": "M4,M6,M11",
+      "candidate_disposition": "audit_pass",
+      "trusted_admission": "pending"
+    },
+    {
+      "claim": "cubic_simple_girth",
+      "general_proof": "edge-type definition; zero/two/four-vertical-step short-cycle exclusion",
+      "finite_control": "100 vertices,150 edges; alternate pairwise constructor and edge-deletion BFS girth",
+      "mutations": "M5,M7",
+      "candidate_disposition": "audit_pass",
+      "trusted_admission": "pending"
+    },
+    {
+      "claim": "maps_and_nonvacuity",
+      "general_proof": "total translation map and all four exterior central layers",
+      "finite_control": "all 150 total and 140 exterior edges; exact domains and ten pins",
+      "mutations": "M2,M3,M8,M10",
+      "candidate_disposition": "audit_pass",
+      "trusted_admission": "pending"
+    },
+    {
+      "claim": "cut_identity_unicyclic",
+      "general_proof": "all subsets by edge-type partition; zero/one partial leaf-fiber case; tree/unicyclic degree sum",
+      "finite_control": "11175 residual edge-pair tests; 100 trivial cuts; 5244 identity subsets",
+      "mutations": "M5,M7",
+      "candidate_disposition": "audit_pass",
+      "trusted_admission": "pending"
+    },
+    {
+      "claim": "vertex_connectivity",
+      "general_proof": "no small edge cut and cubic simple separator argument",
+      "finite_control": "all 100 one-vertex and 4950 two-vertex deletions",
+      "mutations": "M5,M7",
+      "candidate_disposition": "audit_pass",
+      "trusted_admission": "pending"
+    },
+    {
+      "claim": "strict_disagreement_path",
+      "general_proof": "exact-message violation descends h levels; h+1 old vertices; projection distance",
+      "finite_control": "h1 pin distance2 and h1 obstruction; general proof is not inferred from testing",
+      "mutations": "M9,M10",
+      "candidate_disposition": "audit_pass",
+      "trusted_admission": "pending"
+    },
+    {
+      "claim": "pin_obstruction_faithfulness",
+      "general_proof": "full graph CNF equivalence; separate pinned-core to parity implication",
+      "finite_control": "full-source CSP 7 nodes; 16910-clause CNF and 17 DRUP steps; nine parity resolutions",
+      "mutations": "M3,M11,M12,M13",
+      "candidate_disposition": "audit_pass",
+      "trusted_admission": "pending"
+    }
+  ],
+  "first_failed_family_lemma": null,
+  "root_status": "open"
+}
