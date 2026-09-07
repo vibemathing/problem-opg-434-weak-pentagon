@@ -1,0 +1,42 @@
+{
+  "verdict": "candidate_only",
+  "delivery_state": "local_unsubmitted",
+  "observed_main": "d8220b87d903640d1abd2d835aba2f01a32f23dc",
+  "observed_pr": 18,
+  "observed_pr_head": "7d278210fe9f751b260b6f5a10584273375a468c",
+  "mathematical_verification": "not performed",
+  "integrity_scope": "UTF-8 serialization, bounded path/size/privacy inspection and byte hashes only",
+  "files": [
+    {
+      "path": "research/artifacts/candidates/opg434-a01-issue3-comment-draft-20260907.md",
+      "bytes": 2403,
+      "sha256": "96ff31478c07b38eae04cdefb71f5ecfbcf78c441e7e1485b308c3cdb3e2f51c"
+    },
+    {
+      "path": "research/artifacts/candidates/opg434-a01-layered-pentagon-repair-20260907-v1.md",
+      "bytes": 14694,
+      "sha256": "c0e9115a80eb09f692fb3c83a52c8002766219b1154970ad21cc29442a5ba9aa"
+    },
+    {
+      "path": "research/artifacts/candidates/opg434-a01-local-resume-checkpoint-20260907.json",
+      "bytes": 5450,
+      "sha256": "08be5661d04528a0a591e17fb58149f7599d735a318d8a0786656042a1afea3d"
+    },
+    {
+      "path": "research/artifacts/candidates/opg434-a01-pr18-review-draft-20260907.md",
+      "bytes": 2723,
+      "sha256": "1e995442afbd132beb7598bad4c17e91718da6870b555ed31d2f5b8a546d25d5"
+    },
+    {
+      "path": "research/artifacts/candidates/opg434-a01-resume-readme-20260907.md",
+      "bytes": 2331,
+      "sha256": "833a8e853e0554676ccfeee92fc050f338c782c98bffd1fe265f44ec129690d7"
+    },
+    {
+      "path": "research/artifacts/source-notes/opg434-a01-layered-repair-comparison-20260907.md",
+      "bytes": 2468,
+      "sha256": "54ddb8a4ad24482c43ac06bbb81e3367971944a5365302f336deb5da77251a89"
+    }
+  ],
+  "self_digest": "excluded to avoid self-reference"
+}

@@ -1,0 +1,103 @@
+{
+  "verdict": "candidate_only",
+  "state": "nonterminal",
+  "repository": "vibemathing/problem-opg-434-weak-pentagon",
+  "observed_main": "d8220b87d903640d1abd2d835aba2f01a32f23dc",
+  "issue_number": 3,
+  "issue_url": "https://github.com/vibemathing/problem-opg-434-weak-pentagon/issues/3",
+  "route_status": "active",
+  "attempt_id": "attempt:web-20260906-opg434-a01",
+  "route_id": "route:odd-cycle-transversal-equivalence-v1",
+  "graph_id": "graph:opg434-initial-v1",
+  "target_obligation": "obligation:opg434-five-transversals-equivalence",
+  "problem_contract_sha256": "60124bd981c32b7e5ba91955bbdaa76e2dfebf984722e144a589fceace0f7ba5",
+  "harness_snapshot_sha256": "f7c2791de06bb0581e1e591b73638e70206fb34a0ff7282925627607be8d8a7a",
+  "best_verified_candidate": "none",
+  "best_verified_result": "none",
+  "best_local_candidate": "candidate:opg434-a01-layered-pentagon-repair-20260907-v1",
+  "open_obligations": [
+    "obligation:opg434-five-transversals-equivalence",
+    "obligation:opg434-root"
+  ],
+  "failed_routes": [],
+  "auxiliary_negative_knowledge": [
+    "The observed C15 candidate attacks uniform finite-radius punctured-map repair using positive bridge-rich cubic graphs.",
+    "The new local candidate attacks uniform radius and edit bounds for prescribed pentagon-exterior maps even on positive three-vertex-connected cubic girth-five graphs with only trivial three-edge cuts.",
+    "Neither construction supplies a root counterexample or invalidates the admitted equivalence route."
+  ],
+  "transport": {
+    "previous_candidate": "C14",
+    "previous_pr": 17,
+    "previous_pr_state": "merged; observed from fresh main and Issue 3",
+    "current_branch": "web/attempt-opg434-a01-c15-radius-obstruction",
+    "current_head": "7d278210fe9f751b260b6f5a10584273375a468c",
+    "current_pr": 18,
+    "current_pr_state": "open",
+    "merged": false,
+    "mergeable": true,
+    "run_id": 34066189251,
+    "required_checks": {
+      "web-pr-diff-boundary": {
+        "conclusion": "success",
+        "job_id": 101575244655
+      },
+      "web-harness-snapshot": {
+        "conclusion": "success",
+        "job_id": 101575244715
+      },
+      "web-attempt-packet": {
+        "conclusion": "success",
+        "job_id": 101575244777
+      }
+    },
+    "remote_packet": "research/artifacts/web-inbox/opg434-a01-c15.packet.json",
+    "new_packet_created_by_this_continuation": false,
+    "new_local_preparations_submitted": false,
+    "review_draft_submitted": false,
+    "issue_checkpoint_written_by_this_continuation": false
+  },
+  "blocker": {
+    "code": "TOOL_SURFACE_WRITE_UNAVAILABLE",
+    "state": "nonterminal",
+    "scope": "currently exposed actions in this conversation",
+    "observations": [
+      "Full GitHub tool discovery exposes read/search actions, not file writes, issue comments, PR reviews, PR creation or merge.",
+      "Plugin search identifies the existing installed GitHub connector; no additional writable connector was used.",
+      "The administrative branch-protection read returned 403, but branches/main confirms protection and all three required contexts; this was not classified as protection drift."
+    ],
+    "recovery": "Restore an exposed authorized GitHub write action. Fresh-read current PR/main, then reuse Issue 3 and finish the existing transport before publishing a new immutable packet."
+  },
+  "stale_material_handling": {
+    "discarded_local_packet": "opg434-a01-c14.packet.json local premerge template",
+    "reason": "C14 was observed merged during this continuation. Its actual remote packet differs from the unsubmitted local template.",
+    "included_in_delivery": false,
+    "overwrite_remote_c14_or_c15_packet": false
+  },
+  "artifacts": [
+    {
+      "path": "research/artifacts/candidates/opg434-a01-layered-pentagon-repair-20260907-v1.md",
+      "sha256": "c0e9115a80eb09f692fb3c83a52c8002766219b1154970ad21cc29442a5ba9aa",
+      "role": "new self-contained paper candidate"
+    },
+    {
+      "path": "research/artifacts/source-notes/opg434-a01-layered-repair-comparison-20260907.md",
+      "sha256": "54ddb8a4ad24482c43ac06bbb81e3367971944a5365302f336deb5da77251a89",
+      "role": "bounded primary-source terminology comparison"
+    },
+    {
+      "path": "research/artifacts/candidates/opg434-a01-pr18-review-draft-20260907.md",
+      "sha256": "1e995442afbd132beb7598bad4c17e91718da6870b555ed31d2f5b8a546d25d5",
+      "role": "unsubmitted PR 18 self-review draft"
+    }
+  ],
+  "next_action": [
+    "Fresh-read PR 18, its exact head checks, main, Issue 3, existing branches/packets and failed routes.",
+    "If PR 18 is still open with the same passing head and permitted diff, complete its authorized merge; never infer a merge from the synthetic merge_commit_sha of an open PR.",
+    "If PR 18 is already merged, do not duplicate it; use the actual new main for the next cycle.",
+    "Submit the layered pentagon-repair proof only on a fresh admitted candidate branch with one new packet and real transport bindings; revalidate any new base and identifiers.",
+    "Retain root openness and continue global boundary-state selection or the one-deficiency pentagon belt; a universal bounded repair of an arbitrary exterior map is not an available shortcut."
+  ],
+  "mathematical_execution_performed": false,
+  "local_processing": "UTF-8 file serialization, byte hashes, JSON/schema format review; not mathematical verification",
+  "saved_at": "2026-09-06T23:19:26.140416Z"
+}
