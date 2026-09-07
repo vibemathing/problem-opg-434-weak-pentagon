@@ -1,0 +1,19 @@
+{
+  "format": "opg434-belt-interfaces-v1",
+  "source_revision": "798cdf4f220a7c419a07e937507ebc5f5f5cb0fd",
+  "source_path": "research/artifacts/candidates/opg434-a01-c16-belt-frontier.md",
+  "source_blob": "01b713dbc49407a86e61180d862766bcae81bd06",
+  "target": {"coordinates": 5, "vertices": "even-parity five-bit masks in increasing integer order", "generators": [30,29,27,23,15]},
+  "patches": {
+    "r11": {
+      "vertices": ["v0","v1","v2","v3","v4","x0","x2","x3","x4","y","t"],
+      "edges": [[0,1],[1,2],[2,3],[3,4],[0,4],[0,5],[2,6],[3,7],[4,8],[6,9],[7,9],[8,9],[8,10],[5,10]],
+      "ports": [5,6,7,10], "inequalities": [[0,3]], "normalized_rows": 3840
+    },
+    "r12": {
+      "vertices": ["v0","v1","v2","v3","v4","x0","x2","x3","x4","r","z","t"],
+      "edges": [[0,1],[1,2],[2,3],[3,4],[0,4],[0,5],[2,6],[3,7],[4,8],[6,9],[7,9],[7,10],[8,10],[8,11],[5,11]],
+      "ports": [5,6,9,10,11], "inequalities": [[0,4],[1,2]], "normalized_rows": 57600
+    }
+  }
+}

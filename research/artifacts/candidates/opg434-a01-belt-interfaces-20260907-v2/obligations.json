@@ -1,0 +1,73 @@
+{
+  "verdict": "candidate_only",
+  "entries": [
+    {
+      "id": "r11-input",
+      "scope": "11 named vertices, 14 edges, ports x0,x2,x3,t",
+      "status": "matched_literal_source",
+      "verdict": "candidate_only"
+    },
+    {
+      "id": "r11-necessity",
+      "scope": "a=d forces a closed three-step target walk",
+      "status": "paper_plus_target_exhaustion",
+      "verdict": "candidate_only"
+    },
+    {
+      "id": "r11-sufficiency",
+      "scope": "all 3840 normalized allowed tuples",
+      "status": "complete_witness_table_checked",
+      "verdict": "candidate_only"
+    },
+    {
+      "id": "r11-lifting",
+      "scope": "all finite simple triangle-free subcubic hosts; order minus nine",
+      "status": "universal_paper_proof_plus_73_controls",
+      "verdict": "candidate_only"
+    },
+    {
+      "id": "r12-input",
+      "scope": "12 named vertices, 15 edges, ports x0,x2,r,z,t",
+      "status": "matched_literal_source",
+      "verdict": "candidate_only"
+    },
+    {
+      "id": "r12-necessity",
+      "scope": "a=e or b=c forces a closed three-step target walk",
+      "status": "paper_plus_target_exhaustion",
+      "verdict": "candidate_only"
+    },
+    {
+      "id": "r12-sufficiency",
+      "scope": "all 57600 normalized allowed tuples",
+      "status": "separate_complete_witness_table_checked",
+      "verdict": "candidate_only"
+    },
+    {
+      "id": "r12-lifting",
+      "scope": "all relevant hosts and missing pins; order minus at least eight",
+      "status": "universal_paper_proof_plus_852_controls",
+      "verdict": "candidate_only"
+    },
+    {
+      "id": "c14-c16-chain",
+      "scope": "no degree-two vertex on a pentagon of the chosen minimum",
+      "status": "conditional_on_earlier_candidate_dependencies",
+      "verdict": "candidate_only"
+    },
+    {
+      "id": "root-boundary",
+      "scope": "all-degree-three pentagons; exterior state selection; pentagon-free graphs",
+      "status": "open",
+      "verdict": "candidate_only"
+    },
+    {
+      "id": "trusted-review",
+      "scope": "registered checker adapter, semantic review and closure gate",
+      "status": "not_observed",
+      "verdict": "candidate_only"
+    }
+  ],
+  "first_failed_r11": null,
+  "first_failed_r12": null
+}

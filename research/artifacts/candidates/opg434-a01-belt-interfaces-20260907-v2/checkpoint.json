@@ -1,0 +1,39 @@
+{
+  "verdict": "candidate_only",
+  "state": "NONTERMINAL_CHECKPOINT",
+  "base_revision": "798cdf4f220a7c419a07e937507ebc5f5f5cb0fd",
+  "branch": "web/attempt-opg434-a01-belt-lifting-20260907-v1",
+  "issue_number": 3,
+  "best_verified_candidate": null,
+  "best_verified_result": null,
+  "best_candidate": "candidate:opg434-a01-belt-interfaces-20260907-v2",
+  "interfaces": {
+    "r11": {
+      "relation": "a != d",
+      "positive_states": 3840,
+      "negative_states": 256,
+      "first_failure": null,
+      "lifting_order_decrease": 9
+    },
+    "r12": {
+      "relation": "a != e and b != c",
+      "positive_states": 57600,
+      "negative_states": 7936,
+      "first_failure": null,
+      "lifting_order_decrease_minimum": 8
+    }
+  },
+  "runs": "Six mathematical candidate processes and two restored-table rechecks exited zero; restoration has separate integrity receipts. No trusted verifier status.",
+  "open_obligations": [
+    "obligation:opg434-five-transversals-equivalence",
+    "obligation:opg434-root"
+  ],
+  "failed_route": "Uniform local or bounded-edit repair of every exterior map is excluded by the earlier layered candidate; global rechoice remains allowed. Proposal only, no ledger write.",
+  "next_action": "Complete this branch packet/PR/check/merge; then investigate all-degree-three pentagon patches with actual exterior-state correlations. Earlier C14/C16 dependencies and pentagon-free graphs remain open.",
+  "transport_at_freeze": {
+    "pull_request": null,
+    "checks": "not yet requested",
+    "merge": null
+  },
+  "separate_checker": "check_interfaces.py imports no generator; full positive row coverage and every internal/pin edge checked; target and named source reconstructed separately."
+}

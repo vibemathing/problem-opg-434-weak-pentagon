@@ -1,0 +1,84 @@
+{
+  "format": "opg434-belt-verifier-request-v1",
+  "status": "pending",
+  "verdict": "candidate_only",
+  "repository": "vibemathing/problem-opg-434-weak-pentagon",
+  "base_revision": "798cdf4f220a7c419a07e937507ebc5f5f5cb0fd",
+  "target_obligation": "obligation:opg434-root",
+  "requested_capabilities": [
+    "kernel_check",
+    "axiom_escape_audit",
+    "statement_faithfulness"
+  ],
+  "missing_handler": "No compatible callable graph-witness-table adapter identified in the current fixture registry; no action dispatch or policy change is requested.",
+  "required_trust_separation": "Actual reviewing principal must not be the generating trust domain. Different source implementations do not supply that separation.",
+  "inputs": {
+    "report.md": "29b0b2ddc546e5cc811d906c778d848e365358e2ffb257199fa789c88c116a96",
+    "patches.json": "8a0701c13fa235e3190ead9a9c10072469acd3b0f8c9a4e34a6ddc0a97da9d56",
+    "check_interfaces.py": "41d3d4d3de6cabb79739f89287e92bfcb23432a6a1205b6081894af3367f0128",
+    "restore_certificates.py": "9d44855face0b224d3533dfbc960d3b4a574e298ce9f62634769b3824d776001",
+    "certificates.bundle.json": "7a77a2fe992e8c26d631d5e366f45791069666e63468d9aa911af794b063fb52",
+    "obligations.json": "e3176b7e3d6180d63ebd86ccdcfdadcb692bc7066421a96f1b08ae7707d00b5c"
+  },
+  "working_directory": "research/artifacts/candidates/opg434-a01-belt-interfaces-20260907-v2",
+  "commands": [
+    [
+      "python",
+      "restore_certificates.py",
+      "--out",
+      "decoded"
+    ],
+    [
+      "python",
+      "check_interfaces.py",
+      "--spec",
+      "patches.json",
+      "--patch",
+      "r11",
+      "--table",
+      "decoded/r11/r11.witnesses.txt",
+      "--out",
+      "check-r11.json"
+    ],
+    [
+      "python",
+      "check_interfaces.py",
+      "--spec",
+      "patches.json",
+      "--patch",
+      "r12",
+      "--table",
+      "decoded/r12/r12.witnesses.txt",
+      "--out",
+      "check-r12.json"
+    ]
+  ],
+  "limits": {
+    "cpu_seconds": 35,
+    "hard_cpu_seconds": 36,
+    "wall_seconds": 42,
+    "address_space_bytes": 536870912,
+    "threads": 1,
+    "processes": 1,
+    "per_file_bytes": 1048576,
+    "aggregate_output_bytes": 5242880
+  },
+  "semantic_checks": [
+    "C16 named edge/port tables; target-index decoding; complete row coverage; necessity via actual internal edges",
+    "Normalization for all first-pin values and repeated physical outside endpoints",
+    "Both universal lifting proofs, missing pins, proper degree payment and strictly smaller subcubic domain",
+    "Earlier C14/C16 dependencies remain candidate-only; root is not closed by these two finite lemmas"
+  ],
+  "accepted_receipt_requires": [
+    "actual principal and trust domain",
+    "input and executable SHA-256",
+    "versions and limits",
+    "exit and output digests",
+    "statement-faithfulness review separate from successful execution"
+  ],
+  "prohibited_effects": [
+    "writing truth ledgers",
+    "self-signing EvidenceLink",
+    "claiming root closure from finite tables"
+  ]
+}
