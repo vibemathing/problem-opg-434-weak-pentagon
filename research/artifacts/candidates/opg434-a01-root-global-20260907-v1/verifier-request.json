@@ -1,0 +1,23 @@
+{
+  "verdict":"candidate_only",
+  "state":"pending_trusted_verifier",
+  "problem_id":"problem:opg-434-weak-pentagon",
+  "obligation_id":"obligation:opg434-root",
+  "candidate_id":"candidate:opg434-a01-root-global-20260907-v1",
+  "generator_trust_domain":"web-candidate-generation",
+  "trusted_verifier_assigned":null,
+  "compatible_launch_action_confirmed":false,
+  "request_scope":["Replay complete R11 and R12 certificates separately from search","Review all-exterior lifting including missing and repeated endpoints","Check the exact 24-vertex structural counterexample and its positive total map","Reconstruct full-source CNF and check its positive assignment","Audit why this does not refute minimum non-B-mappability or close the root"],
+  "input_bundle":"bundle-index.json",
+  "restore_command":["python3","restore_bundle.py","--out","trusted-replay-inputs"],
+  "replay_working_directory":"trusted-replay-inputs",
+  "global_replay_command":["python3","run_bounded.py","--receipt","trusted-check.json","--inputs","global_check.py","global-result.json","global-example.cnf","--","global_check.py"],
+  "global_input_sha256":{"global-result.json":"d38d5cab6100f73fc35ffc2a06f2ec552ed08a985dc723ed0b470f088e33e2dc","global-example.cnf":"c960a52e3287f756ba24627752c9a7393dd1cb75bbc07fac282379b7827797da","global_check.py":"bfb3d147150f98069eff215f1dc7672ddf60c3370c4613e95511bb17dceeef68"},
+  "belt_replay":"Use the existing belt-interfaces-20260907-v2 verifier_request.json and restore_certificates.py for that exact variant. The attachment-source checker and current replay receipts are separately included in this bundle; do not substitute table hashes or mutation counts between variants.",
+  "limits":{"wall_seconds":40,"cpu_soft_seconds":35,"cpu_hard_seconds":36,"address_space_bytes":536870912,"cpu_affinity_count":1,"per_file_bytes":1048576,"seed":0},
+  "limits_caveat":"Stream and aggregate output budgets are audited after exit, not an asserted aggregate filesystem hard quota.",
+  "expected_global_result":{"girth":7,"vertices":24,"edges":36,"vertex_cut_tests":300,"edge_cut_tests":7806,"three_cuts":24,"cnf_variables":384,"cnf_clauses":4057,"fundamental_cycles":13},
+  "expectations_are_not_new_receipts":true,
+  "acceptance":"Bind exact code/input/output hashes, actual versions and resource/exit records in a separately registered trust domain. Kernel/axiom/statement-faithfulness requirements remain separate. No graph enumeration, positive SAT witness or transport check supplies root closure.",
+  "root_status":"open"
+}
