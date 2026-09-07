@@ -1,0 +1,12 @@
+{
+  "route_fingerprint": "82fa86cfb02cd037d5df80983957fa9e2fcbfed8e8c83115750e9570e599d695",
+  "failure_class": "counterexample",
+  "frozen_auxiliary_statement": "Every finite connected simple nonbipartite cubic graph of girth at least five, with vertex connectivity at least three and only trivial three-edge-cuts, contains a pentagon.",
+  "blocker": "24-vertex graph of girth seven satisfies every stated structural hypothesis. The stronger premise minimal non-B-mappability is NOT refuted by this positive example.",
+  "evidence_locators": [
+    "research/artifacts/candidates/opg434-a01-root-global-20260907-v1/report.md",
+    "research/artifacts/candidates/opg434-a01-root-global-20260907-v1/bundle-index.json"
+  ],
+  "next_obligation": "obligation:opg434-root",
+  "verdict": "candidate_only"
+}
