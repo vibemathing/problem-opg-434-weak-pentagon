@@ -156,7 +156,7 @@ its 3-edge-connected cubic witness.
 ## 6. Scope, source comparison and the next obstruction
 
 Sources are compared in
-research/artifacts/source-notes/opg434-a01-c10-bipartization-comparison.md.
+research/artifacts/source-notes/opg434-a01-c10-global-switching-comparison-recovered-20260907.md.
 The cited near-bipartite theorem concerns an independent set and a forest
 complement, not an independent OPEN NEIGHBORHOOD and not a B extension.
 C10 does not assume that theorem to prove any of its constructions.

@@ -1,0 +1,109 @@
+{
+  "degree_four_vertices": [
+    "a",
+    "b",
+    "c",
+    "u",
+    "w"
+  ],
+  "edges": [
+    [
+      "u",
+      "a"
+    ],
+    [
+      "u",
+      "b"
+    ],
+    [
+      "u",
+      "c"
+    ],
+    [
+      "w",
+      "a"
+    ],
+    [
+      "w",
+      "b"
+    ],
+    [
+      "w",
+      "c"
+    ],
+    [
+      "a",
+      "ab1"
+    ],
+    [
+      "ab1",
+      "ab2"
+    ],
+    [
+      "ab2",
+      "b"
+    ],
+    [
+      "a",
+      "ac1"
+    ],
+    [
+      "ac1",
+      "ac2"
+    ],
+    [
+      "ac2",
+      "c"
+    ],
+    [
+      "b",
+      "bc1"
+    ],
+    [
+      "bc1",
+      "bc2"
+    ],
+    [
+      "bc2",
+      "c"
+    ],
+    [
+      "u",
+      "uw1"
+    ],
+    [
+      "uw1",
+      "uw2"
+    ],
+    [
+      "uw2",
+      "w"
+    ]
+  ],
+  "execution": "none; explicit input data only",
+  "kind": "candidate_graph_witness",
+  "name": "J-three-apex-degree-four",
+  "paper_certificate": "research/artifacts/candidates/opg434-a01-c11-degree-budget.md",
+  "scope": "Auxiliary degree-free three-vertex bipartization statement; outside the cubic root domain.",
+  "verdict": "candidate_only",
+  "vertex_bipartizing_set": [
+    "a",
+    "b",
+    "c"
+  ],
+  "vertices": [
+    "a",
+    "b",
+    "c",
+    "u",
+    "w",
+    "ab1",
+    "ab2",
+    "ac1",
+    "ac2",
+    "bc1",
+    "bc2",
+    "uw1",
+    "uw2"
+  ]
+}
