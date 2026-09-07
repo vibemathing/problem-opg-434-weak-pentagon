@@ -1,0 +1,72 @@
+{
+  "verdict": "candidate_only",
+  "transport_status": "local_draft_not_submitted",
+  "repository": "vibemathing/problem-opg-434-weak-pentagon",
+  "problem_id": "problem:opg-434-weak-pentagon",
+  "attempt_id_user_supplied": "attempt:web-20260906-opg434-a01",
+  "route_id_user_supplied": "route:odd-cycle-transversal-equivalence-v1",
+  "graph_id_user_supplied": "graph:opg434-initial-v1",
+  "target_obligation_id": "obligation:opg434-five-transversals-equivalence",
+  "root_obligation_id": "obligation:opg434-root",
+  "live_main_sha": null,
+  "harness_snapshot_live_verified": false,
+  "best_verified_result": "none",
+  "best_prepared_candidate": "research/artifacts/candidates/five-transversals-equivalence.md",
+  "open_obligations": [
+    "obligation:opg434-five-transversals-equivalence",
+    "obligation:opg434-root"
+  ],
+  "candidate_rejected_strengthenings": [
+    "All five labelled colour classes must be nonempty for each feasible colouring.",
+    "The deletion-bipartite condition implies proper edge colouring.",
+    "Rainbow 5-cycles suffice to ensure all five deletion graphs are bipartite."
+  ],
+  "failed_route_records_written": false,
+  "artifact_records": [
+    {
+      "path": "research/artifacts/candidates/colour_certificate_tool.py",
+      "sha256": "793b746dcaaa1df674927f9769b6dbb8b8b49d070dc596c86f629daa76a75528",
+      "bytes": 7192
+    },
+    {
+      "path": "research/artifacts/candidates/five-transversals-equivalence.md",
+      "sha256": "1c55e982313d503f7318aded7bf18d8bd7f38b77f703ce08ccf6982e0ab98243",
+      "bytes": 8583
+    },
+    {
+      "path": "research/artifacts/candidates/transversal-audit-and-reformulations.md",
+      "sha256": "caa7a6e416a057fff99880c68576d33978676178ba0e36eaed421aba2aa0c34a",
+      "bytes": 5330
+    },
+    {
+      "path": "research/artifacts/source-notes/statement-comparison-pending.md",
+      "sha256": "ca88ff7c091cadcc4c9fdc57e7c43fd192f495f68b015f95a83d117c86eb9df9",
+      "bytes": 1575
+    }
+  ],
+  "issue": null,
+  "branch": null,
+  "pull_request": null,
+  "checks_observed": null,
+  "blocker": "No live connector response body was available for audit in the active context; neither a changed admission failure nor successful preflight is asserted.",
+  "next_action": "Recover readable live GitHub state and validate the updated pre-admitted binding and packet schema; reuse one open research Issue, then submit the proof draft and complete primary-source comparison.",
+  "packet_schema_validity_claimed": false,
+  "remote_checkpoint_saved": false,
+  "additional_prepared_claims": [
+    "Nonbipartite pentagonal prism admits a feasible nonproper colouring.",
+    "Induced-odd-cycle-only single-class checking on the original graph is invalid; explicit 9-cycle witness in the heptagonal prism.",
+    "Five disjoint transversals and five bipartite spanning subgraphs covering each edge at least four times are equivalent formulations.",
+    "Necessary bound 5*tau_e(G)<=|E(G)|."
+  ],
+  "tool_plan": {
+    "path": "research/artifacts/candidates/colour_certificate_tool.py",
+    "execution_status": "not_executed",
+    "input_bytes_max": 1048576,
+    "vertices_max": 20000,
+    "edges_max": 100000,
+    "planned_timeout_seconds": 30,
+    "planned_memory_mib": 256,
+    "planned_threads": 1,
+    "scope": "fixed colouring only; no universal existence claim"
+  }
+}
