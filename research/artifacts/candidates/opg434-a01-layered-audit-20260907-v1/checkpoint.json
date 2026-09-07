@@ -1,0 +1,50 @@
+{
+  "verdict": "candidate_only",
+  "state": "NONTERMINAL_CHECKPOINT",
+  "base_revision": "08a8bce1a183c8feaa6fe139cc90b0cc58cfac6d",
+  "issue_number": 3,
+  "branch": "web/attempt-opg434-a01-layered-audit-20260907-v1",
+  "best_verified_candidate": null,
+  "best_verified_result": null,
+  "best_paper_candidate": "candidate:opg434-a01-layered-audit-20260907-v1",
+  "open_obligations": [
+    "obligation:opg434-five-transversals-equivalence",
+    "obligation:opg434-root"
+  ],
+  "failed_routes": [],
+  "first_unclosed_check": "h1 actual bounded graph/map/certificate/mutation replay",
+  "general_proof_status": "paper audit supplied; no contradicting example found in paper review; not a trusted result",
+  "execution": {
+    "status": "not_executed",
+    "exit_code": null,
+    "runtime_version": null,
+    "output_sha256": null,
+    "reason": "current Web channel command_execution=false; prescribed compute_plan.py absent on frozen main",
+    "code_processing": "syntax parsed only; not imported or executed"
+  },
+  "artifacts": [
+    {
+      "path": "research/artifacts/candidates/opg434-a01-layered-audit-20260907-v1/audit.md",
+      "sha256": "8ebb4a8dddc8ed6e025ce4ec06795f9cd4440028dcd76654fd547f2509bc33a7"
+    },
+    {
+      "path": "research/artifacts/candidates/opg434-a01-layered-audit-20260907-v1/h1_control.py",
+      "sha256": "c6410cfc72d4df236bcb508fec6f43624deda9bf3bc85730580ec64763a08022"
+    },
+    {
+      "path": "research/artifacts/candidates/opg434-a01-layered-audit-20260907-v1/h1_parity_certificate.json",
+      "sha256": "6c7f18946c5d5f3837ddfeaac8788eececab713f60baeec193786cbef91767c8"
+    },
+    {
+      "path": "research/artifacts/source-notes/opg434-a01-layered-audit-faithfulness-20260907-v1.md",
+      "sha256": "e92fe88e62b0a0cf34ef75c27da233d6a1416bd7dbe749e96e21729949bab885"
+    }
+  ],
+  "next_action": "Authorize an execution-capable scoped runtime, then run the existing frozen h1_control.py; collect actual full finite graph, maps, rejection certificate, mutations, versions, resource bounds and exit/output hashes. Do not reopen old transport inventory or close the root.",
+  "transport_at_freeze": {
+    "pull_request": null,
+    "required_checks": "not yet observed",
+    "merge": null
+  },
+  "source_input_sha256": "c0e9115a80eb09f692fb3c83a52c8002766219b1154970ad21cc29442a5ba9aa"
+}
