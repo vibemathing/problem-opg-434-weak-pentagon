@@ -1,0 +1,36 @@
+{
+  "verdict": "candidate_only",
+  "inputs": [
+    {
+      "path": "research/artifacts/candidates/opg434-a01-layered-pentagon-repair-20260907-v1.md",
+      "revision": "bc0d53de15bb21236483b4d671dda376309c8177",
+      "bytes": 14694,
+      "sha256": "c0e9115a80eb09f692fb3c83a52c8002766219b1154970ad21cc29442a5ba9aa",
+      "git_blob": "47194660177840c621a279f8147ac911edbc3e0f",
+      "match": "connector fresh-main bytes"
+    },
+    {
+      "path": "research/artifacts/candidates/opg434-a01-layered-audit-20260907-v1/h1_control.py",
+      "revision": "bc0d53de15bb21236483b4d671dda376309c8177",
+      "bytes": 16481,
+      "sha256": "c6410cfc72d4df236bcb508fec6f43624deda9bf3bc85730580ec64763a08022",
+      "git_blob": "f35a6273825f8ecfd2fac0b991f34d165e8f4c3f",
+      "match": "connector fresh-main bytes"
+    },
+    {
+      "path": "research/artifacts/candidates/opg434-a01-layered-audit-20260907-v1/h1_parity_certificate.json",
+      "revision": "bc0d53de15bb21236483b4d671dda376309c8177",
+      "bytes": 1960,
+      "sha256": "6c7f18946c5d5f3837ddfeaac8788eececab713f60baeec193786cbef91767c8",
+      "git_blob": "265d13b64df4030891bc82b81f743746314ea5eb",
+      "match": "connector fresh-main bytes"
+    }
+  ],
+  "audit_input": {
+    "path": "research/artifacts/candidates/opg434-a01-layered-audit-20260907-v1/audit.md",
+    "revision": "bc0d53de15bb21236483b4d671dda376309c8177",
+    "git_blob": "d864bcc968aa5e12d5df1c3229c5d67479b0940f",
+    "sha256_declared": "8ebb4a8dddc8ed6e025ce4ec06795f9cd4440028dcd76654fd547f2509bc33a7",
+    "read": "connector sections 1-130 and 131-340"
+  }
+}

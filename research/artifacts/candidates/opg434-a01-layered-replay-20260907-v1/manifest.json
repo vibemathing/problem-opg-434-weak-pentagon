@@ -1,0 +1,76 @@
+{
+  "verdict": "candidate_only",
+  "format": "r09-replay-manifest-v1",
+  "base_revision": "bc0d53de15bb21236483b4d671dda376309c8177",
+  "path_prefix": "research/artifacts/candidates/opg434-a01-layered-replay-20260907-v1",
+  "files": [
+    {
+      "file": "alternate_control.py",
+      "bytes": 16276,
+      "sha256": "07fa560bc6b0ebc8782c7b66500cfedea0300734a015af81499c441c5674f09b",
+      "git_blob": "b29f42c30772b5e0dce4d7750c300549eb7ab814"
+    },
+    {
+      "file": "check_certificates.py",
+      "bytes": 7651,
+      "sha256": "718f9e0ae0e0f8574c027bb349da0f270da3aeaf5ef842f65d4df4c1c2737001",
+      "git_blob": "bfe6788d3e55f9be682d715d8f7961b891b4e2d8"
+    },
+    {
+      "file": "checkpoint.json",
+      "bytes": 1175,
+      "sha256": "1743d5f9f107511be5f2b480b6c464b58ace7df65e99ba53ee8b7b3cedfc992a",
+      "git_blob": "1c4625cd29393ce915b88d534702aeb5be0b46cd"
+    },
+    {
+      "file": "general_obligations.json",
+      "bytes": 2935,
+      "sha256": "10353c1e421228b03fbaad8378233b18f55ca34a3f97738d946feb848da3767b",
+      "git_blob": "fa0dca7d8fdc3021c9cf19efa95cadebe6935248"
+    },
+    {
+      "file": "input_manifest.json",
+      "bytes": 1595,
+      "sha256": "859f61155b8ddd13345344c20ee3cf955ea6784ca19993adcb6e136dfc5cc066",
+      "git_blob": "01b65c918d60b582b8e0d3d492c50211ccb5fcd0"
+    },
+    {
+      "file": "outputs.bundle.json",
+      "bytes": 18407,
+      "sha256": "15eb17a7f0873f2af1219f96809d82dc68aebca69ead07480593b7df9a1ca0b9",
+      "git_blob": "1615eff2a91600b51a73fc2d1ba47c29ef992267"
+    },
+    {
+      "file": "replay_drup.py",
+      "bytes": 3558,
+      "sha256": "4b81d2887350cba485c7f4fd682469bb03c88372d4cea37af4feb5fec7e5d73b",
+      "git_blob": "2a338e05192ca47c704d22f903cd0b536a964ca6"
+    },
+    {
+      "file": "report.md",
+      "bytes": 13390,
+      "sha256": "ac004ed22dd0da75e1150d234fcdde6287681b3a36cbbdb359c55386d68ab0e4",
+      "git_blob": "51c3860e538973c6752c0f50b3410be7c9d36692"
+    },
+    {
+      "file": "run_bounded.py",
+      "bytes": 3975,
+      "sha256": "43ae28a1cde80d663b05067f67071c1d8e67e3654a74fd764a7d6cdb0321d344",
+      "git_blob": "e9a48d6e5fde513cdfddf6538afc0421b67ddd33"
+    },
+    {
+      "file": "unpack_outputs.py",
+      "bytes": 2047,
+      "sha256": "869e4a19b4f779afe4ddc1f5fb08fcf9b829deb2f87d94b62dc896d0059da36a",
+      "git_blob": "9332082d36c80535aa99bca87bc6795bae24d2e7"
+    },
+    {
+      "file": "verifier_request.json",
+      "bytes": 3589,
+      "sha256": "8fd580b11371f063845b334e8658485600f6b2c577214fa6479b3dd9f4822d63",
+      "git_blob": "905792fbdfd94e4bb0f72bb7d87593a9133a9717"
+    }
+  ],
+  "raw_output_manifest": "outputs.bundle.json:files",
+  "self_and_packet_excluded": "No circular hashes; final packet and manifest hashes belong to PR/Issue receipts."
+}
