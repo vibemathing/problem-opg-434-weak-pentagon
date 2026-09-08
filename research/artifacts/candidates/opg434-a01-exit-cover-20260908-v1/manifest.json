@@ -1,0 +1,47 @@
+{
+  "verdict": "candidate_only",
+  "candidate_id": "candidate:opg434-a01-exit-cover-20260908-v1",
+  "base_revision": "ea7cad35e16393f02a6b5a265e929bca389625a1",
+  "prefix": "research/artifacts/candidates/opg434-a01-exit-cover-20260908-v1",
+  "files": [
+    {
+      "path": "audit-state.json",
+      "bytes": 5279,
+      "sha256": "5bd5e7737886dedfcc732b3a84c2159da19c60725379ca3198f9c1eee2831eab",
+      "git_blob": "f85f5d017cbb849242ce87076b1f4eee2e6c6049"
+    },
+    {
+      "path": "payload-00.txt",
+      "bytes": 12000,
+      "sha256": "15a4b1b45fdb33eb841ba8b445e5fcb471ac0c864435012c9c1d4f7bb81da472",
+      "git_blob": "9055797c4a86bb72cb0f9c935681794cdcccf405"
+    },
+    {
+      "path": "payload-01.txt",
+      "bytes": 12000,
+      "sha256": "03cdfb649c76327e641a6e31db5e953f0c7e6617ccfd365c3aa81b93ae792e9b",
+      "git_blob": "d9aeacde4af9908a8e630095994422f96f76cb44"
+    },
+    {
+      "path": "payload-02.txt",
+      "bytes": 9602,
+      "sha256": "5311d11f001f9b2a2747fc99fdfa14f85e0fa33f5dbf1c975ce15aa63959fb4b",
+      "git_blob": "b63d67314ae0e22434e7a5dd1fb2cce7bec6a72a"
+    },
+    {
+      "path": "report.md",
+      "bytes": 16862,
+      "sha256": "5af11d77c1089256e7c7f16b01ea9ac07627e986c51dae74da1f2cd9aca9e24f",
+      "git_blob": "c26c7b642447d4eb353068e862e0fd4a0aced66d"
+    },
+    {
+      "path": "restore.py",
+      "bytes": 3528,
+      "sha256": "b363c2d52cb4721c027f98752441d9b76b65612c002fb6ce5060182765fd964e",
+      "git_blob": "636051e9d2dfc9051bc0194b2c43a70187e3756f"
+    }
+  ],
+  "self_excluded": "manifest and final packet SHA belong to PR/Issue receipts",
+  "logical_bytes": 242965,
+  "logical_count": 29
+}
