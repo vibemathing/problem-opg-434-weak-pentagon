@@ -1,0 +1,62 @@
+{
+  "R11": {
+    "first_failure": null,
+    "historical_complete_rows": 3840,
+    "rerun": false
+  },
+  "R12": {
+    "first_failure": null,
+    "historical_complete_rows": 57600,
+    "rerun": false,
+    "separately_checked": true
+  },
+  "affine_matching": {
+    "arbitrary_lists_require_actual_joint_states": true,
+    "three": {
+      "negative": 7380,
+      "positive": 58156,
+      "rows": 65536
+    },
+    "two": {
+      "negative": 10,
+      "positive": 246,
+      "rows": 256
+    }
+  },
+  "best_verified_result": null,
+  "first_open_structural_lemma": "Guarantee a usable strict reduction or a nonempty exact higher-arity signature join for every minimum non-B source with no applicable bridge, 2/cyclic3 cut, dominated vertex or admissible cap. No inevitability follows from structural hypotheses alone.",
+  "fixed_graph_signatures": {
+    "G22_minus_0": "all B^3 (4096 tuples)",
+    "G22_minus_edge01": "all B^2 (256 tuples)"
+  },
+  "graph22": {
+    "B_mappable": true,
+    "minimum_non_B_implication": "open",
+    "only_structural_inevitability_counterexample": true
+  },
+  "new_primitives": {
+    "all_labels_retained": true,
+    "all_pairs_retained": true,
+    "edge_nonempty": 1455,
+    "edge_normalized_rows": 4096,
+    "vertex_nonempty": 91,
+    "vertex_normalized_rows": 256
+  },
+  "root_closed": false,
+  "statement_faithfulness": "trusted review pending",
+  "strict_reductions": {
+    "K23_cap": {
+      "delta": -4,
+      "scope": "induced K2,3, full internal lists, three distinct pairwise nonadjacent exterior endpoints; cubic to cubic, every smaller map lifts; one-way only"
+    },
+    "dominated_vertex": {
+      "delta": -1,
+      "scope": "N(v) subset N(u), nonadjacent distinct vertices, L(u) subset L(v); exact retained maps; subcubic not cubic"
+    },
+    "small_cuts": {
+      "scope": "minimum over whole triangle-free subcubic class; C06/C13 logic reconstructed, table checked; not assumed for cubic-only minimal pieces"
+    }
+  },
+  "trusted_closure": false,
+  "verdict": "candidate_only"
+}

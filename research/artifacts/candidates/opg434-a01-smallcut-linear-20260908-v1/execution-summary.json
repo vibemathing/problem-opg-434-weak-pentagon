@@ -1,0 +1,109 @@
+{
+  "verdict": "candidate_only",
+  "state": "NONTERMINAL_CHECKPOINT",
+  "actual_runs": [
+    {
+      "receipt": "runs/produce.json",
+      "sha256": "d71b7ccd77099e37dc35cfc5abdc66e8939fa942f184e4128c6295a0287e03d5",
+      "exit_code": 0,
+      "python": "3.13.5",
+      "wall_seconds": 0.6208720590000212,
+      "cpu_seconds": 0.600949,
+      "stdout_sha256": "1b35d47842195d9a241011ed9b7d4f9fe56595bb4b3ab259e868cc618b30492f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "receipt": "runs/check.json",
+      "sha256": "b856fc9bd9df249e78f646cce918ad48a237fd24ed963fb4e3e172c235cfb350",
+      "exit_code": 0,
+      "python": "3.13.5",
+      "wall_seconds": 1.2710493700000143,
+      "cpu_seconds": 1.251824,
+      "stdout_sha256": "a48569c0b87222fae79dd3d487b5aae1b0fcd19d77b3208e4017bc088239c745",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "receipt": "runs/mutations.json",
+      "sha256": "1464354e66f09363e8e4bf772c33cd863666360da222e7302bd71233bc93bb56",
+      "exit_code": 0,
+      "python": "3.13.5",
+      "wall_seconds": 1.774989704999939,
+      "cpu_seconds": 1.7658099999999999,
+      "stdout_sha256": "ee5c18e1440f3177d60e043f46ee6c3aca680cc7e6a386d31c9998bef0b0e3bc",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "receipt": "runs/check-final.json",
+      "sha256": "366d609991a76fec55cb92f6c73f21da23f55b8faf008988c9079b7f54cb5e0e",
+      "exit_code": 0,
+      "python": "3.13.5",
+      "wall_seconds": 1.022388879999994,
+      "cpu_seconds": 1.007851,
+      "stdout_sha256": "a48569c0b87222fae79dd3d487b5aae1b0fcd19d77b3208e4017bc088239c745",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "receipt": "runs/mutations-final.json",
+      "sha256": "6c4e12c97ca7074c8766c86410a1c858d856c65393e786b56b8f15c0b8bc6f92",
+      "exit_code": 0,
+      "python": "3.13.5",
+      "wall_seconds": 1.778355260000012,
+      "cpu_seconds": 1.732021,
+      "stdout_sha256": "ee5c18e1440f3177d60e043f46ee6c3aca680cc7e6a386d31c9998bef0b0e3bc",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "receipt": "runs/cycle-boundary.json",
+      "sha256": "563064205b47bfc88e4cfdce4e59719b8e7b8ff803e18510b938cd6055bcc325",
+      "exit_code": 0,
+      "python": "3.13.5",
+      "wall_seconds": 0.7201186019999568,
+      "cpu_seconds": 0.703982,
+      "stdout_sha256": "7b464c4cbce24b28b5cedd20a1dc1ed6642551f7f0b345f0f5ef77ba1b42e589",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "successful_runs": 6,
+  "gadget_states": {
+    "K23_internal": 1456,
+    "K23_external": 4096,
+    "smaller_star_external": 1456,
+    "first_missing": [
+      0,
+      0,
+      15
+    ]
+  },
+  "conditional_system": "D*z + diag(D*a)*D*b = d; linear after a fixed",
+  "retained_parallel_rows": true,
+  "mutations": {
+    "negative": 20,
+    "positive": 3
+  },
+  "cycle_boundary": {
+    "cycle_length": 7,
+    "extensions": 22,
+    "closing_edge_negative": {
+      "open_chain": 329,
+      "closed_cycle": 0
+    }
+  },
+  "graph22": {
+    "positive": true,
+    "a_cases": 404,
+    "cross_rows": 29,
+    "components": 18
+  },
+  "limits": {
+    "cpu_soft": 35,
+    "cpu_hard": 36,
+    "wall": 40,
+    "address_space": 536870912,
+    "per_file_stream": 1048576,
+    "one_cpu": true,
+    "aggregate_output": "<=5MiB audited after exit"
+  },
+  "receipt_caveat": "Early consumer input read-set incomplete; definitive check-final and mutations-final bind the complete JSON read-set before execution. Historical runner versions retained.",
+  "trusted_closure": false,
+  "root_closed": false
+}

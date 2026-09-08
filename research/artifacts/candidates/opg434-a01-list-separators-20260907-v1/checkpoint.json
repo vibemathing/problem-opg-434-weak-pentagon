@@ -1,0 +1,29 @@
+{
+  "R11_first_failure": null,
+  "R12_first_failure": null,
+  "background_execution": false,
+  "base_revision": "ea7cad35e16393f02a6b5a265e929bca389625a1",
+  "best_candidate": "candidate:opg434-a01-list-separators-20260907-v1",
+  "best_verified_result": null,
+  "branch": "web/attempt-opg434-a01-list-separators-20260907-v1",
+  "execution_successes": 7,
+  "execution_unsuccessful": 1,
+  "failed_search_probe": "one preliminary UNKNOWN after 200000 nodes, then complete fixed witness coverage and separate check succeeded",
+  "first_open_structural_lemma": "Guarantee a usable strict reduction or a nonempty exact higher-arity signature join for every minimum non-B source with no applicable bridge, 2/cyclic3 cut, dominated vertex or admissible cap. No inevitability follows from structural hypotheses alone.",
+  "issue": 3,
+  "new_mathematical_claim_failure": null,
+  "next_action": "Complete one final-head PR transaction and trusted replay request; continue exact four/higher-port joint states in irreducible candidates, never unary projection or uniformly bounded-edit repair.",
+  "open_obligations": [
+    "obligation:opg434-root",
+    "obligation:opg434-five-transversals-equivalence"
+  ],
+  "previous_pr29": "merged, old packet immutable",
+  "root_closed": false,
+  "state": "NONTERMINAL_CHECKPOINT",
+  "transport_at_freeze": {
+    "checks": null,
+    "merge": null,
+    "pr": null
+  },
+  "verdict": "candidate_only"
+}

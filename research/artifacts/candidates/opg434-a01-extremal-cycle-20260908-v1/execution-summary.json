@@ -1,0 +1,376 @@
+{
+  "aggregate_output_audit": "checked at artifact freeze after all processes; not runtime filesystem quota",
+  "consumer": {
+    "a_states_checked": 131072,
+    "basis_recomputed_after_each_flip": true,
+    "cycle_signature_rows_checked": 67200,
+    "exact_source_cycle_bridge_checked": true,
+    "max_parent_depth": 4,
+    "maxcut": 29,
+    "maxcut_states": 2097152,
+    "maximum_cuts_mod_complement": 11,
+    "parent_states_checked": 131072,
+    "replacement_attachment_cases_checked": 2940,
+    "root_closed": false,
+    "shared_producer_imports": false,
+    "single_flip_trap": 1537,
+    "smaller_core_labeled_census": {
+      "1": 0,
+      "2": 0,
+      "3": 3,
+      "4": 0,
+      "5": 135,
+      "6": 0
+    },
+    "smaller_core_shape_counts": {
+      "edge_and_isolate": 3,
+      "fork5": 60,
+      "path5": 60,
+      "square_and_isolate": 15
+    },
+    "status": "separate_consumer_pass",
+    "trap_energy": 1,
+    "trusted_domain_separation": false,
+    "verdict": "candidate_only"
+  },
+  "forbidden_old_enumerations_executed": false,
+  "limits": {
+    "address_space_bytes": 536870912,
+    "aggregate_enforcement": "audit after exit",
+    "aggregate_limit_bytes": 8388608,
+    "cpu_affinity": 1,
+    "cpu_hard_seconds": 36,
+    "cpu_soft_seconds": 35,
+    "file_stream_bytes": 1048576,
+    "outer_wall_seconds": 42,
+    "wall_seconds": 40
+  },
+  "mutations": {
+    "checks": [
+      {
+        "expected": "reject",
+        "name": "flip_source_row_rhs",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "drop_parallel_or_source_row",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "corrupt_linear_solution",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "truncate_negative_dependency",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "corrupt_total_map",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "claim_nonmaximum_cut_is_maximum",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "claim_plateau_move_is_strict",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "remove_old_cycle_ignore_new_cycle",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "false_parent_ground",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "parent_cycle",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "multiple_flips_labeled_single",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "opposite_parallel_rows_accepted",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "sigma_uses_only_unary_lists",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "short_sigma_row",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "false_signature_count",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "external_pin_not_actual_map",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "changed_port_assignment",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "deleted_replacement_edge",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "bad_gadget_map",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "false_strict_order_drop",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "target_generator_mutation",
+        "observed": "reject"
+      },
+      {
+        "expected": "reject",
+        "name": "false_root_nonmap_scope",
+        "observed": "reject"
+      },
+      {
+        "expected": "accept",
+        "name": "actual_plateau_path",
+        "observed": "accept"
+      },
+      {
+        "expected": "accept",
+        "name": "target_translate_map",
+        "observed": "accept"
+      },
+      {
+        "expected": "accept",
+        "name": "same_sign_parallel_row",
+        "observed": "accept"
+      },
+      {
+        "expected": "accept",
+        "name": "reverse_all_source_edges_map",
+        "observed": "accept"
+      },
+      {
+        "expected": "accept",
+        "name": "signed_vertex_switching_gauge",
+        "observed": "accept"
+      }
+    ],
+    "exterior_compatible_but_cycle_nonextendible": true,
+    "exterior_replacement_vertices": 20,
+    "negative": 22,
+    "positive": 5,
+    "root_closed": false,
+    "shared_producer_imports": false,
+    "status": "mutation_and_exterior_consumer_pass",
+    "verdict": "candidate_only"
+  },
+  "registered_trusted_domain": false,
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "boundary.py"
+      ],
+      "cpu_seconds": 3.1027970000000002,
+      "exit_code": 0,
+      "python_version": "3.13.5",
+      "receipt": "runs/boundary.json",
+      "sha256": "dcc0a373bae65cf30e6ae5756358bedcd38a3aa2e9ab514fbc143cea89a9b3ea",
+      "stderr": {
+        "bytes": 0,
+        "path": "runs/boundary.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 215,
+        "path": "runs/boundary.stdout.txt",
+        "sha256": "e165efce6b50ce341ef2a3b81c181dcc81c07e75338c65432ac7c699107f5e34"
+      },
+      "wall_seconds": 3.144560946000013
+    },
+    {
+      "command": [
+        "python3",
+        "check_extremal.py"
+      ],
+      "cpu_seconds": 27.20056,
+      "exit_code": 0,
+      "python_version": "3.13.5",
+      "receipt": "runs/check-final.json",
+      "sha256": "f76c170f5deaf7eda86fc02b6b489164c60b97d39259f375c28f17c3dc95f35b",
+      "stderr": {
+        "bytes": 0,
+        "path": "runs/check-final.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 720,
+        "path": "runs/check-final.stdout.txt",
+        "sha256": "df043087fef1b8786508f21716321df838ca1ec6966858906e96f2c039705725"
+      },
+      "wall_seconds": 27.28304179600002
+    },
+    {
+      "command": [
+        "python3",
+        "check_extremal.py"
+      ],
+      "cpu_seconds": 28.030881,
+      "exit_code": 0,
+      "python_version": "3.13.5",
+      "receipt": "runs/check.json",
+      "sha256": "0a75f26904b973794973a4f8a0e6401420200999b44115bd795d79a1068140f6",
+      "stderr": {
+        "bytes": 0,
+        "path": "runs/check.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 488,
+        "path": "runs/check.stdout.txt",
+        "sha256": "f0773e9b56ec057fc076f6f258fbae52d3e7342cd12527dde8b8f50bfef4dca3"
+      },
+      "wall_seconds": 28.093525240999952
+    },
+    {
+      "command": [
+        "python3",
+        "energy.py"
+      ],
+      "cpu_seconds": 4.603997,
+      "exit_code": 0,
+      "python_version": "3.13.5",
+      "receipt": "runs/energy.json",
+      "sha256": "b3c0e5159468d319fe7c7b99c97a55043741e60a827e0c64773c0af1869e116e",
+      "stderr": {
+        "bytes": 0,
+        "path": "runs/energy.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 1909,
+        "path": "runs/energy.stdout.txt",
+        "sha256": "91e34a2fe8f854b69e57824eb4780bca3acc3f3d0a1125adb890a4902d914d79"
+      },
+      "wall_seconds": 4.671170635999999
+    },
+    {
+      "command": [
+        "python3",
+        "exterior.py"
+      ],
+      "cpu_seconds": 1.674818,
+      "exit_code": 0,
+      "python_version": "3.13.5",
+      "receipt": "runs/exterior.json",
+      "sha256": "ee1551fc211c3f4924e2bc7dc352f7a5257a0ee76db186af40e1788d0feb0c21",
+      "stderr": {
+        "bytes": 0,
+        "path": "runs/exterior.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 1294,
+        "path": "runs/exterior.stdout.txt",
+        "sha256": "85718081924daad6aca5d6245bd78fa81352b9b892af044bde209fd4e9b281a1"
+      },
+      "wall_seconds": 1.7282484930000237
+    },
+    {
+      "command": [
+        "python3",
+        "maxcut.py"
+      ],
+      "cpu_seconds": 4.656451,
+      "exit_code": 0,
+      "python_version": "3.13.5",
+      "receipt": "runs/maxcut.json",
+      "sha256": "930837471b7130b6b47182d36fa84f902095ec566000a5b894a2210978c2400d",
+      "stderr": {
+        "bytes": 0,
+        "path": "runs/maxcut.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 260,
+        "path": "runs/maxcut.stdout.txt",
+        "sha256": "1287db9a3a7efbfef7b2f80f325190645be5e33a4d763b2078ef6c733cba3e84"
+      },
+      "wall_seconds": 4.675873328000023
+    },
+    {
+      "command": [
+        "python3",
+        "mutations.py"
+      ],
+      "cpu_seconds": 1.6427800000000001,
+      "exit_code": 0,
+      "python_version": "3.13.5",
+      "receipt": "runs/mutations.json",
+      "sha256": "9965b37f28619646dea6c10475ccd3b0f1ced214dd519340ad8248e1156268b9",
+      "stderr": {
+        "bytes": 0,
+        "path": "runs/mutations.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 256,
+        "path": "runs/mutations.stdout.txt",
+        "sha256": "cb6772815ededd3b82b589c1d058878c961510a5397e4e8f6ca198f0fe319c89"
+      },
+      "wall_seconds": 1.6770068679999213
+    },
+    {
+      "command": [
+        "python3",
+        "plateau.py"
+      ],
+      "cpu_seconds": 2.523341,
+      "exit_code": 0,
+      "python_version": "3.13.5",
+      "receipt": "runs/plateau.json",
+      "sha256": "a9f7ca7df627f51f0f559deb336a30e96f69cd534620447c22d1e11d9b4c3819",
+      "stderr": {
+        "bytes": 0,
+        "path": "runs/plateau.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 582,
+        "path": "runs/plateau.stdout.txt",
+        "sha256": "54bb852bdcebdfa490e508b19ffe0eb51c28cd33754c364dd5d9e5f29520fb43"
+      },
+      "wall_seconds": 2.5638590990000125
+    }
+  ],
+  "successful_runs": 8,
+  "verdict": "candidate_only"
+}

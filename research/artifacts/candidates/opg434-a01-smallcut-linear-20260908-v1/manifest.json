@@ -1,0 +1,87 @@
+{
+  "verdict": "candidate_only",
+  "prefix": "research/artifacts/candidates/opg434-a01-smallcut-linear-20260908-v1",
+  "base_revision": "ea7cad35e16393f02a6b5a265e929bca389625a1",
+  "files": [
+    {
+      "file": "bundle-index.json",
+      "bytes": 6060,
+      "sha256": "7fb9ebe9a121d5108c5adc19ae5fcc18510e154a924c95cae8aeaa9aa7c6a3d2",
+      "git_blob": "18e83cce2f05559fd058025036654049d930ede9"
+    },
+    {
+      "file": "checkpoint.json",
+      "bytes": 1265,
+      "sha256": "e64f05ded3013f0c8ba58a68de41949a24b5d010a3f9acae19cea1b234c156c8",
+      "git_blob": "4d24b4152f8185b1cee91ab44646f39b3a5fb3ad"
+    },
+    {
+      "file": "execution-summary.json",
+      "bytes": 3824,
+      "sha256": "4412dde93069847f4ec64f57bf6906e56dfcdd7d4aca14e0cddc720a0cd467d4",
+      "git_blob": "61feeaeb4ca056b36a02fd6ade15462d48aff37d"
+    },
+    {
+      "file": "failed-route-proposal.json",
+      "bytes": 1026,
+      "sha256": "0243cfb1e2dbdb7c9b2f43bc610c3a1323a66a7c84b1d1c3a897029c44840f86",
+      "git_blob": "a50a87ccb7c7f7848d7487b019d0f09b3aa5bda6"
+    },
+    {
+      "file": "obligations.json",
+      "bytes": 1070,
+      "sha256": "ef5bb4797ac5628a630df524d3c18bf4eec37c1b3bd170455a3c9b8b2b23ad88",
+      "git_blob": "41d81d588a9ac8b3659f7d5862e43fb1286420b1"
+    },
+    {
+      "file": "payload-00.txt",
+      "bytes": 7000,
+      "sha256": "ab43335e1cf0325364621104639bd753b348ab37e49ad168263c433bfadeeabd",
+      "git_blob": "3b3a4b4ad8f6867570dd7a55504b3ac5968cc90e"
+    },
+    {
+      "file": "payload-01.txt",
+      "bytes": 7000,
+      "sha256": "ea841f40b4bf0a593899f6a2f66414b097b6bdeab22cb46105741a53a700d7f7",
+      "git_blob": "fbfa31d5c3986c3fbe0d8f585910fb49f2497858"
+    },
+    {
+      "file": "payload-02.txt",
+      "bytes": 7000,
+      "sha256": "e67533fb4395edbfa4b0eff0ea66d29cd7291924c718b447930f477093ea74f4",
+      "git_blob": "1910f8674fdee2b1e27c9b3ec31ffe4cbafb0615"
+    },
+    {
+      "file": "payload-03.txt",
+      "bytes": 7000,
+      "sha256": "0ef5f1111bf8297940eec921811329e4f5e6bc6885831df28d788731c600bcb8",
+      "git_blob": "8f94cec914b6a21aca3a7db4a164b35c9cec3fc0"
+    },
+    {
+      "file": "payload-04.txt",
+      "bytes": 6636,
+      "sha256": "0314d0e28237231fc3e96df24d096ba1a992a1cd2bf63beb08d989da1867d745",
+      "git_blob": "f3122d72404335b18bcaf8a2bc248e1933744833"
+    },
+    {
+      "file": "report.md",
+      "bytes": 16478,
+      "sha256": "d8c11b820edd43f63e5aec43b425dd03abf002e11cea3d3e1240eac092c13f4a",
+      "git_blob": "e5ad80a1bd0639286a968df9d12831d404f037bb"
+    },
+    {
+      "file": "restore.py",
+      "bytes": 1427,
+      "sha256": "3b46049e47d1825ea824ff8f71f6d42851745ecafa8d8c54d38ebb1f471a865c",
+      "git_blob": "c55491e67d9f80ab1003190cb616457522ab5a40"
+    },
+    {
+      "file": "verifier-request.json",
+      "bytes": 1066,
+      "sha256": "4dd6008e4ea37b8a49c2f0cc00162b0cd8f347805bf0134055aaab9298586ac7",
+      "git_blob": "37f9f594a1ff6a4a7c71a6898bc3948bbeb60081"
+    }
+  ],
+  "restored_files": "bundle-index.json:files; 32 files,259017 exact bytes",
+  "self_packet_transport_receipts": "separately recorded to avoid circular hashes"
+}

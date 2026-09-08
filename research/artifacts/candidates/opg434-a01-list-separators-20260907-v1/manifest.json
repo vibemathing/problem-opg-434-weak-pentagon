@@ -1,0 +1,129 @@
+{
+  "base_revision": "ea7cad35e16393f02a6b5a265e929bca389625a1",
+  "decoded_file_manifest": "bundle-index.json:files",
+  "files": [
+    {
+      "bytes": 10987,
+      "file": "bundle-index.json",
+      "git_blob": "8dde1483f4ede3d65d484fe7e90a92757954a7da",
+      "sha256": "2cf241f463cb0daa5b255841b7c944de486e45ad39b3676ad65b0f2de3166209"
+    },
+    {
+      "bytes": 1426,
+      "file": "checkpoint.json",
+      "git_blob": "f78f07049519fd8b6b2ce757c5e85871f274b2b7",
+      "sha256": "f317270438c2d79dcb382c3a820dfe9b70f05adbef6ee02a9991b4952588d96b"
+    },
+    {
+      "bytes": 1470,
+      "file": "failed-route-proposal.json",
+      "git_blob": "9babadef75e46f7ffbef018a688972fd0e67bded",
+      "sha256": "7da72579c59af618ea71ce86bac4be7baf53bc65b48766df19edc6aaf016bde9"
+    },
+    {
+      "bytes": 2022,
+      "file": "obligations.json",
+      "git_blob": "43ea5c2f826b5ab8a0da11d527834ef35ddc3908",
+      "sha256": "68484d87dd07e0806042022d54258de080bcec1748ea413de28938d055b536c7"
+    },
+    {
+      "bytes": 7500,
+      "file": "payload-00.txt",
+      "git_blob": "00b56ad0443b01b3df3f7d66a1a748a5247f2f30",
+      "sha256": "3624f7259c5eccc03cab7a26d7239485337b75a322dba2ed447b8fcf490308e8"
+    },
+    {
+      "bytes": 7500,
+      "file": "payload-01.txt",
+      "git_blob": "bc129a84007ae22ebfcb9e77c42e57eb0c45f260",
+      "sha256": "792a0950f9523fc634d6c41015c2e485b1bc158d01ee132762e123325b955c28"
+    },
+    {
+      "bytes": 7500,
+      "file": "payload-02.txt",
+      "git_blob": "e82c13d33c841cfda4213bbd073384007e1d8171",
+      "sha256": "7ac27c29eebc88604855f981f76e09d19cbff89c8c33319fb1677a2e43576e60"
+    },
+    {
+      "bytes": 7500,
+      "file": "payload-03.txt",
+      "git_blob": "73816f2298c81ff9a5c6f7fd1a189c4be56505f7",
+      "sha256": "7bd235b675a6460c34cc8d0854bf0a67cea6d7838375ee60cfe2c7056570a453"
+    },
+    {
+      "bytes": 7500,
+      "file": "payload-04.txt",
+      "git_blob": "b2b9b40d4f1fc49ea076e970c6dfaa271db54568",
+      "sha256": "d264515739d52d8973dd725dfb9231e55fceef347fcb1c7b321bc9915228e45b"
+    },
+    {
+      "bytes": 7500,
+      "file": "payload-05.txt",
+      "git_blob": "f9a731464ecfb140aacec9d1dd41fc5d1bf182e2",
+      "sha256": "36e62a1f1158ce7af92772af9255cdba7dea0598ea72dc1d42d83a62eed42a37"
+    },
+    {
+      "bytes": 7500,
+      "file": "payload-06.txt",
+      "git_blob": "90e763ffad2633111db6fe02403e57cee53f4e3d",
+      "sha256": "90270b4334a793324d64516a05d3d5aa8ee896890ee9ae020695e6eaad9d2b71"
+    },
+    {
+      "bytes": 7500,
+      "file": "payload-07.txt",
+      "git_blob": "e2a9a28cd388af7b28403b0950410926cfe3d702",
+      "sha256": "7f8ea40c5f98d08b92675b18c73b93dcc086e695a4d8ac2ffa99538bfc12970b"
+    },
+    {
+      "bytes": 7500,
+      "file": "payload-08.txt",
+      "git_blob": "dc96fab170e384f36af192310dbc9951e418fc40",
+      "sha256": "b34d8e08cba406aaff778efd831c15683a4ec95defba170a12b672085341dd1d"
+    },
+    {
+      "bytes": 7500,
+      "file": "payload-09.txt",
+      "git_blob": "60664deae264e951e0b3e98e5bbb87c54b9bbc9c",
+      "sha256": "6cde1886b02474c726df89a0cc511e0a30fd0c833141b333e6de7977fd31b1a9"
+    },
+    {
+      "bytes": 7500,
+      "file": "payload-10.txt",
+      "git_blob": "2b7d4869928f51a2db21fa0f6b613aeb21d53af0",
+      "sha256": "3e3de5634bcf5e744dbb8dc626930b323936b5ad8ef9ff2bda4f611dd7335bfb"
+    },
+    {
+      "bytes": 3836,
+      "file": "payload-11.txt",
+      "git_blob": "a022cfd7bdf7b5a265c402fde38ebf3b20d0e78e",
+      "sha256": "c0b70a54e2a52eb818fcf2b297f52d656eb17252e8cbe96aa9a0ccd27e818a3c"
+    },
+    {
+      "bytes": 1258,
+      "file": "replay_request.py",
+      "git_blob": "55a17ad168a0270bea17546fa34282329e16d4bd",
+      "sha256": "de363c882dc8a5e89170103e1fe06973143a0f65d073e9651640c15a4d2aacd9"
+    },
+    {
+      "bytes": 21008,
+      "file": "report.md",
+      "git_blob": "84da80f420947161e3e1723260caab02425cb8de",
+      "sha256": "56ddc8214ccd227a72ac7953145291a1a1afd392e91545a99e5ae3a73b07ef51"
+    },
+    {
+      "bytes": 2228,
+      "file": "restore.py",
+      "git_blob": "70c4f88a40f4981be1db6a807f27c68ab9bfbdfc",
+      "sha256": "313f4878b4a7d1648b9a357dd4c7e3b249bc4a16560a6ce233eaf52971def604"
+    },
+    {
+      "bytes": 1658,
+      "file": "verifier-request.json",
+      "git_blob": "3602c20ed47fd506493f8953863b53df8105075b",
+      "sha256": "e82baf69483434d8af340b575612529583fc381406cfba45387b538a48c11ad8"
+    }
+  ],
+  "root_closed": false,
+  "self_and_packet_excluded": true,
+  "verdict": "candidate_only"
+}
