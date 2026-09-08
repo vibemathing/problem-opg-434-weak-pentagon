@@ -1,0 +1,86 @@
+{
+  "verdict": "candidate_only",
+  "successful_math_processes": 7,
+  "failed_math_processes": 0,
+  "records": [
+    {
+      "name": "producer",
+      "program": "produce.py",
+      "exit_code": 0,
+      "timeout": false,
+      "wall_seconds": 0.8725088300000152,
+      "cpu_seconds": 0.8371899999999999,
+      "input_unchanged": true,
+      "receipt_sha256": "2cb00a72cc4296317f1d4040e11fdace94c3ca6ebd9b08d44c5c05411e9eb169"
+    },
+    {
+      "name": "consumer",
+      "program": "check.py",
+      "exit_code": 0,
+      "timeout": false,
+      "wall_seconds": 2.0227707249999867,
+      "cpu_seconds": 1.9978589999999998,
+      "input_unchanged": true,
+      "receipt_sha256": "8081ca6dd610b74d7a7885a3698fd0dda36c6f7b2cec06b5c5b1f3b147a8167d"
+    },
+    {
+      "name": "mutation",
+      "program": "mutations.py",
+      "exit_code": 0,
+      "timeout": false,
+      "wall_seconds": 0.6224406590000626,
+      "cpu_seconds": 0.60869,
+      "input_unchanged": true,
+      "receipt_sha256": "ef811b3eff43ca63742021484787da7027881b1b6aa743669d426ae9710178ab"
+    },
+    {
+      "name": "consumer-final",
+      "program": "check_final.py",
+      "exit_code": 0,
+      "timeout": false,
+      "wall_seconds": 1.9234307259998786,
+      "cpu_seconds": 1.9016710000000001,
+      "input_unchanged": true,
+      "receipt_sha256": "405cf3bd0f710aac49d1b61f69868fb4b69e7df300dd348437b807a3bdd6ac3a"
+    },
+    {
+      "name": "mutation-final",
+      "program": "mutations_final.py",
+      "exit_code": 0,
+      "timeout": false,
+      "wall_seconds": 0.569330902999809,
+      "cpu_seconds": 0.5630209999999995,
+      "input_unchanged": true,
+      "receipt_sha256": "c1481825363644913571f20e0fbc3780b6d21fe9a0cc750319e403236c1d41e5"
+    },
+    {
+      "name": "sparse-producer",
+      "program": "sparse_construct.py",
+      "exit_code": 0,
+      "timeout": false,
+      "wall_seconds": 0.6182648229998904,
+      "cpu_seconds": 0.569442,
+      "input_unchanged": true,
+      "receipt_sha256": "5744a15d250d6bd490dddcb2136ebe9605707a9e686288c0e89e0e592a030140"
+    },
+    {
+      "name": "sparse-consumer",
+      "program": "check_sparse.py",
+      "exit_code": 0,
+      "timeout": false,
+      "wall_seconds": 0.6185384279999653,
+      "cpu_seconds": 0.5648600000000001,
+      "input_unchanged": true,
+      "receipt_sha256": "76791ca5e85cff4b71a7574a83aa98a5261cd79a16ed164687710c45b8a80e59"
+    }
+  ],
+  "final_mutations": {
+    "negative": 19,
+    "positive": 5
+  },
+  "historic_output_alias": {
+    "mutation.execution.json:mutation-results.json": "mutation-results-v1.json"
+  },
+  "runner_output_semantics": "post-run JSON inventory, not a write trace",
+  "general_EXIT": "open"
+}
