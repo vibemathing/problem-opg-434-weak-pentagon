@@ -1,0 +1,25 @@
+{
+  "verdict": "candidate_only",
+  "R11": {
+    "states": 3840,
+    "reexecuted": false,
+    "first_failure": null
+  },
+  "R12": {
+    "states": 57600,
+    "reexecuted": false,
+    "first_failure": null
+  },
+  "five_side_classification": "proved; K23 unique nontrivial connected side <=5",
+  "exact_smaller_replacement": "fails; minimum full external tuple [0,0,15]",
+  "nonmatching_3cut": "exposes 2cut unless trivial under connected cubic 3-edge-connected assumptions",
+  "GF2_conditional_system": "D z + diag(D a) D b = d; fixed a only",
+  "all_parallel_rows_retained": true,
+  "rank_formula": "2c-kappa(Q0)-kappa(Q1)",
+  "local_max_partition_completeness": "not proved; not assumed",
+  "negative_circuit": "lifts to odd source cycle; not automatically reducible",
+  "new_fixed_graph22_positive": true,
+  "first_open_structural_lemma": "For a minimum non-B cubic core, guarantee a realizable correlated seven/short-cycle boundary state or a global s,a making both signed blocks balanced. No general proof given.",
+  "trusted_closure": false,
+  "root_closed": false
+}
