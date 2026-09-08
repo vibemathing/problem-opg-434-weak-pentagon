@@ -1,0 +1,197 @@
+{
+  "format": "bounded-xz-json-text-v1",
+  "verdict": "candidate_only",
+  "raw_json_bytes": 267700,
+  "raw_json_sha256": "5929d8e8ac4535e58a4d8d529ab0ece64d97c45bbdf31347ef7c3a7ff0fe9795",
+  "expanded_file_bytes": 259017,
+  "payload_sha256": "06d9fd18f3a975c06ddc9944fd6b6f39828c92a8f988c55326f903522b121ef1",
+  "payload_parts": [
+    {
+      "path": "payload-00.txt",
+      "bytes": 7000,
+      "sha256": "ab43335e1cf0325364621104639bd753b348ab37e49ad168263c433bfadeeabd"
+    },
+    {
+      "path": "payload-01.txt",
+      "bytes": 7000,
+      "sha256": "ea841f40b4bf0a593899f6a2f66414b097b6bdeab22cb46105741a53a700d7f7"
+    },
+    {
+      "path": "payload-02.txt",
+      "bytes": 7000,
+      "sha256": "e67533fb4395edbfa4b0eff0ea66d29cd7291924c718b447930f477093ea74f4"
+    },
+    {
+      "path": "payload-03.txt",
+      "bytes": 7000,
+      "sha256": "0ef5f1111bf8297940eec921811329e4f5e6bc6885831df28d788731c600bcb8"
+    },
+    {
+      "path": "payload-04.txt",
+      "bytes": 6636,
+      "sha256": "0314d0e28237231fc3e96df24d096ba1a992a1cd2bf63beb08d989da1867d745"
+    }
+  ],
+  "files": [
+    {
+      "path": "check-result.json",
+      "bytes": 1065,
+      "sha256": "22af856325d632686159168e781c62c46b30c670252727b0ff8a0cd3b7e31954"
+    },
+    {
+      "path": "check.py",
+      "bytes": 11943,
+      "sha256": "65d6ba23f34e47634e84d581a86b8b8c1353050e2a48bfb23ca9b3b2d29539ca"
+    },
+    {
+      "path": "cycle-boundary-result.json",
+      "bytes": 1066,
+      "sha256": "ccd6800f2d2549195a6c416857cb24eea745aed60ee314c0455cc48db630bb58"
+    },
+    {
+      "path": "cycle_boundary.py",
+      "bytes": 2259,
+      "sha256": "e8477c84de680f27034e44051e9acfa303b28236c91197fc2d2a9244ed8d83ef"
+    },
+    {
+      "path": "gadget-result.json",
+      "bytes": 139682,
+      "sha256": "d7fcf47c65b93a08938f744c6af5da9c56a7c9e94f402700b9aebce4c99f98aa"
+    },
+    {
+      "path": "input-audit.json",
+      "bytes": 569,
+      "sha256": "f764cc730ba62b1002bfb9e7a67235206879877df4c74c44c514ba023f1af9a1"
+    },
+    {
+      "path": "input-graph22.json",
+      "bytes": 15484,
+      "sha256": "2845bd7dd0646300dd8f97c5574051d2ee31e11470fae5131afb53f572fbf117"
+    },
+    {
+      "path": "mutation-result.json",
+      "bytes": 2603,
+      "sha256": "6d18e89347a1c5dbce6609007d5eb153aab939165d4b2d64521c3aa9334052a1"
+    },
+    {
+      "path": "mutations.py",
+      "bytes": 4131,
+      "sha256": "3fb52723d157dd13f188b6c8a18c149efe80dcdb88a96189a427e3e168e85899"
+    },
+    {
+      "path": "produce.py",
+      "bytes": 8649,
+      "sha256": "f8c108a1787ad8b94408b8af288ac938c0196a5826a9e79109cc811aa39b7a57"
+    },
+    {
+      "path": "quotient-result.json",
+      "bytes": 46745,
+      "sha256": "17141272f538bf34600de762d999e98200b7d0be1f1e0e273d11dfcdeb802501"
+    },
+    {
+      "path": "run_bounded.py",
+      "bytes": 3076,
+      "sha256": "84e37e345d2d5c1fe3142721387f50bdd3d7b6b9c86c1b48c749a95d95ed84ee"
+    },
+    {
+      "path": "run_bounded_v1.py",
+      "bytes": 2777,
+      "sha256": "43cbf567fea23519793c6c1a10bede4899bc9072ee5a31942662f87f4f229d5f"
+    },
+    {
+      "path": "run_bounded_v2.py",
+      "bytes": 3031,
+      "sha256": "d287a3ce9d04f574c4113f03321e3ea1b2f0f8f5313ca59aa5e44061e8bfc8a4"
+    },
+    {
+      "path": "runs/check-final.json",
+      "bytes": 2767,
+      "sha256": "366d609991a76fec55cb92f6c73f21da23f55b8faf008988c9079b7f54cb5e0e"
+    },
+    {
+      "path": "runs/check-final.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/check-final.stdout.txt",
+      "bytes": 100,
+      "sha256": "a48569c0b87222fae79dd3d487b5aae1b0fcd19d77b3208e4017bc088239c745"
+    },
+    {
+      "path": "runs/check.json",
+      "bytes": 2194,
+      "sha256": "b856fc9bd9df249e78f646cce918ad48a237fd24ed963fb4e3e172c235cfb350"
+    },
+    {
+      "path": "runs/check.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/check.stdout.txt",
+      "bytes": 100,
+      "sha256": "a48569c0b87222fae79dd3d487b5aae1b0fcd19d77b3208e4017bc088239c745"
+    },
+    {
+      "path": "runs/cycle-boundary.json",
+      "bytes": 2940,
+      "sha256": "563064205b47bfc88e4cfdce4e59719b8e7b8ff803e18510b938cd6055bcc325"
+    },
+    {
+      "path": "runs/cycle-boundary.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/cycle-boundary.stdout.txt",
+      "bytes": 68,
+      "sha256": "7b464c4cbce24b28b5cedd20a1dc1ed6642551f7f0b345f0f5ef77ba1b42e589"
+    },
+    {
+      "path": "runs/mutations-final.json",
+      "bytes": 2778,
+      "sha256": "6c4e12c97ca7074c8766c86410a1c858d856c65393e786b56b8f15c0b8bc6f92"
+    },
+    {
+      "path": "runs/mutations-final.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/mutations-final.stdout.txt",
+      "bytes": 50,
+      "sha256": "ee5c18e1440f3177d60e043f46ee6c3aca680cc7e6a386d31c9998bef0b0e3bc"
+    },
+    {
+      "path": "runs/mutations.json",
+      "bytes": 2516,
+      "sha256": "1464354e66f09363e8e4bf772c33cd863666360da222e7302bd71233bc93bb56"
+    },
+    {
+      "path": "runs/mutations.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/mutations.stdout.txt",
+      "bytes": 50,
+      "sha256": "ee5c18e1440f3177d60e043f46ee6c3aca680cc7e6a386d31c9998bef0b0e3bc"
+    },
+    {
+      "path": "runs/produce.json",
+      "bytes": 1904,
+      "sha256": "d71b7ccd77099e37dc35cfc5abdc66e8939fa942f184e4128c6295a0287e03d5"
+    },
+    {
+      "path": "runs/produce.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/produce.stdout.txt",
+      "bytes": 470,
+      "sha256": "1b35d47842195d9a241011ed9b7d4f9fe56595bb4b3ab259e868cc618b30492f"
+    }
+  ]
+}
