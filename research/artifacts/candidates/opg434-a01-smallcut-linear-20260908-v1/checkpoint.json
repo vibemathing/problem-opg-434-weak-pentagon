@@ -1,0 +1,28 @@
+{
+  "verdict": "candidate_only",
+  "state": "NONTERMINAL_CHECKPOINT",
+  "repository": "vibemathing/problem-opg-434-weak-pentagon",
+  "base_revision": "ea7cad35e16393f02a6b5a265e929bca389625a1",
+  "issue": 3,
+  "reused_branch": "web/attempt-opg434-a01-list-separators-20260907-v1",
+  "initial_head": "fbefd3ee6b176a5b9b996244ce742b23a966bff4",
+  "candidate": "candidate:opg434-a01-smallcut-linear-20260908-v1",
+  "best_verified_result": null,
+  "failed_route": "542e0246d56a695ba568b2b351a85918551597bda4ec1ab8a5a8124797d76b44",
+  "R11_first_failure": null,
+  "R12_first_failure": null,
+  "first_failed_new_gadget_tuple": [
+    0,
+    0,
+    15
+  ],
+  "global_fixed_graph22": "positive 33-edge map; a=0 circuit does not refute root",
+  "first_open_structural_lemma": "For a minimum non-B cubic core, guarantee a realizable correlated seven/short-cycle boundary state or a global s,a making both signed blocks balanced. No general proof given.",
+  "next_action": "Reuse the pending transaction and its sole packet; after transport, study exact seven-port cycle/exterior composition or prove existence of a suitable s,a. Do not repeat belt/h1 generation.",
+  "transport_at_freeze": {
+    "PR": null,
+    "checks": null,
+    "merge": null
+  },
+  "root_closed": false
+}
