@@ -1,0 +1,38 @@
+{
+  "verdict": "candidate_only",
+  "status": "pending_trusted_dispatch",
+  "candidate": "candidate:opg434-a01-smallcut-linear-20260908-v1",
+  "scope": [
+    "small-gadget relation equality and nonrealization",
+    "GF2 quotient faithfulness including multiedges",
+    "conditional signed-cycle extraction",
+    "general proof scope review"
+  ],
+  "after_restore_commands": [
+    [
+      "python",
+      "run_bounded.py",
+      "trusted-consumer",
+      "check.py"
+    ],
+    [
+      "python",
+      "run_bounded.py",
+      "trusted-mutations",
+      "mutations.py"
+    ],
+    [
+      "python",
+      "run_bounded.py",
+      "trusted-cycle",
+      "cycle_boundary.py"
+    ]
+  ],
+  "requests": [
+    "kernel_check",
+    "axiom_escape_audit",
+    "statement_faithfulness"
+  ],
+  "local_generator_is_trusted_verifier": false,
+  "instructions": "Restore into a fresh contained directory, validate every SHA-256 first. A registered external lane must emit its own identity-bound receipt; local processes do not self-admit. The root is not solved by these certificates."
+}
