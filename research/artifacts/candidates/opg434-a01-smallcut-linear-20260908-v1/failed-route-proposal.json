@@ -1,0 +1,25 @@
+{
+  "verdict": "candidate_only",
+  "route_fingerprint": "542e0246d56a695ba568b2b351a85918551597bda4ec1ab8a5a8124797d76b44",
+  "failure_class": "counterexample",
+  "claim": "Every connected simple triangle-free cubic three-attachment small side has a strictly smaller simple triangle-free gadget with three attachment incidences, all internal degrees completed to three, and exactly the same external-neighbor B-homomorphism relation.",
+  "counterexample": "K2,3 with its three degree-two ports",
+  "first_missing_external_tuple": [
+    0,
+    0,
+    15
+  ],
+  "cap_witness": [
+    3,
+    3,
+    29,
+    29,
+    20
+  ],
+  "smaller_gadgets": "only the one-vertex three-stub star; order3 would be a triangle, other smaller orders impossible by parity",
+  "K23_external_states": 4096,
+  "star_external_states": 1456,
+  "root_counterexample": false,
+  "does_not_reject": "one-way star lifting with extra outside-endpoint conditions; changes to exterior; a larger local replacement",
+  "next_obligation": "obligation:opg434-root"
+}
