@@ -1,0 +1,24 @@
+{
+  "verdict": "candidate_only",
+  "request_status": "pending_registered_verifier",
+  "candidate_id": "candidate:opg434-a01-five-row-exit-20260909-v1",
+  "entry": "report.md",
+  "entry_sha256": "ffb498f0c949a6e16eafa8fb17937a7fe8fcea368ec0a7250a00927928752135",
+  "restore": ["python", "restore.py"],
+  "restore_scope": "integrity only; no archived mathematical program executes",
+  "decoded_files": 37,
+  "decoded_bytes": 476175,
+  "proof": "restored/report.md",
+  "proof_sha256": "bf21f5fb4226525db6324d0c0a6abbb0b3a9d2275781510279082b5edae143af",
+  "verification_working_directory": "restored",
+  "commands": [
+    ["python", "run_bounded.py", "external_check", "check_five.py", "census-shapes.json", "five-row-certificate.json"],
+    ["python", "run_bounded.py", "external_controls", "controls.py", "check_five.py", "census-shapes.json", "five-row-certificate.json"]
+  ],
+  "expected_finite_result": {"r2_complete_cases": 401, "r3_control_cases": 192, "first_failed_case": null},
+  "required_semantic_reviews": ["35 shared-kernel iff with one common h", "physical five-side classification and full residual coverage", "all physical parallel rows and inverse map", "scope side at most five, not root"],
+  "execution_limits": {"cpu_soft_seconds": 35, "cpu_hard_seconds": 36, "wall_seconds": 40, "address_space_bytes": 536870912, "file_bytes": 1048576, "threads": 1},
+  "requested_capabilities": ["kernel_check", "axiom_escape_audit", "statement_faithfulness"],
+  "registered_dispatch_available": false,
+  "root_remains_open": true
+}

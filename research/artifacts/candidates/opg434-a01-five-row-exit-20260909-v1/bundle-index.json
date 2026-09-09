@@ -1,0 +1,42 @@
+{
+  "format": "opg434-five-row-recovery-exact-v2",
+  "logical_count": 37,
+  "logical_bytes": 476175,
+  "raw_json_bytes": 501309,
+  "raw_json_sha256": "1704c78881bb86a19877225d7fbd0cbd465ec72e44b18cdc6c523c9c8788205c",
+  "xz_bytes": 30040,
+  "xz_sha256": "a43aa451f485c925e6d50770785dc049ccd2abe994f8f556c6c7fc913a798417",
+  "source_zip_sha256": "c07f8d1930f475b3b99e4e331a14fe5e4059b94bfe9541dc807816325e270950",
+  "parts": [
+    {
+      "file": "payload-00.txt",
+      "bytes": 10100,
+      "sha256": "dbe639bf22e488a745592e6e35066b44e9f9156fa1729822eb4d5a680a293a91",
+      "git_blob": "f9ed9a420ed3bf8ebbea6ded3310ff344ff1ad8a"
+    },
+    {
+      "file": "payload-01.txt",
+      "bytes": 10100,
+      "sha256": "84a23e341e5047879e16f59bb286712995f356361753467d9e81d8cab3aa16a7",
+      "git_blob": "a6a7383fa2714fe0acb0662e961469051ac003f7"
+    },
+    {
+      "file": "payload-02.txt",
+      "bytes": 10100,
+      "sha256": "d23a18aadc4e39c87c6d66493ac34d989316480577dc4c572100da2573bf4bbd",
+      "git_blob": "9d84425f40d39989e1377c457240c88dc2a85ff8"
+    },
+    {
+      "file": "payload-03.txt",
+      "bytes": 10100,
+      "sha256": "fc64c1ccccba2c3ce209db3107df7a4578c63b9f8a5539a553f38c1275d05eeb",
+      "git_blob": "5e4bc3c80f328e07ee63c5f2956272a27ed29c28"
+    },
+    {
+      "file": "payload-04.txt",
+      "bytes": 57,
+      "sha256": "1b52989da93f0daf22195324d7256402e97c64d72d187103ae642fe3f2c6ffbe",
+      "git_blob": "a2e2a189fdfc7b59f0f2eaaa0a35ea4bcb3fdbe6"
+    }
+  ]
+}

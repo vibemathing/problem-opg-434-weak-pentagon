@@ -1,0 +1,18 @@
+{
+  "verdict": "candidate_only",
+  "format": "five-row-recovery-manifest-v2",
+  "logical_files": 37,
+  "logical_bytes": 476175,
+  "files": [
+    {"path":"report.md","bytes":6424,"sha256":"ffb498f0c949a6e16eafa8fb17937a7fe8fcea368ec0a7250a00927928752135","git_blob":"91939413295c07aad97fd7a3ad779b6b1dc4544d"},
+    {"path":"bundle-index.json","bytes":1488,"sha256":"b55af9d347f62cdf38c64cdcadb7b79b25ab3e600ed05b6c081ab06af681bed5","git_blob":"02c371c50415188b33fb74f7c9d4d84bf5474616"},
+    {"path":"restore.py","bytes":2956,"sha256":"9884dec2e013bff5db7ba64545806fa98c668d33a8b0e36d0eb7d9530f15e6ea","git_blob":"5efd56c19d43453c5d9262725b6818b1bf079fa8"},
+    {"path":"payload-00.txt","bytes":10100,"sha256":"dbe639bf22e488a745592e6e35066b44e9f9156fa1729822eb4d5a680a293a91","git_blob":"f9ed9a420ed3bf8ebbea6ded3310ff344ff1ad8a"},
+    {"path":"payload-01.txt","bytes":10100,"sha256":"84a23e341e5047879e16f59bb286712995f356361753467d9e81d8cab3aa16a7","git_blob":"a6a7383fa2714fe0acb0662e961469051ac003f7"},
+    {"path":"payload-02.txt","bytes":10100,"sha256":"d23a18aadc4e39c87c6d66493ac34d989316480577dc4c572100da2573bf4bbd","git_blob":"9d84425f40d39989e1377c457240c88dc2a85ff8"},
+    {"path":"payload-03.txt","bytes":10100,"sha256":"fc64c1ccccba2c3ce209db3107df7a4578c63b9f8a5539a553f38c1275d05eeb","git_blob":"5e4bc3c80f328e07ee63c5f2956272a27ed29c28"},
+    {"path":"payload-04.txt","bytes":57,"sha256":"1b52989da93f0daf22195324d7256402e97c64d72d187103ae642fe3f2c6ffbe","git_blob":"a2e2a189fdfc7b59f0f2eaaa0a35ea4bcb3fdbe6"}
+  ],
+  "metadata_binding": "checkpoint and verifier-request are non-evidence coordination files; their current blobs are bound by the final PR tree. Manifest self and packet hashes are recorded in Issue checkpoint.",
+  "original_proof_sha256": "bf21f5fb4226525db6324d0c0a6abbb0b3a9d2275781510279082b5edae143af"
+}
