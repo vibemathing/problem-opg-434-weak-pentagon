@@ -1,0 +1,42 @@
+{
+  "verdict": "candidate_only",
+  "fresh_main": "fa39349a6ec4fba957c97157b8fd79ca5b3a625c",
+  "failed_routes_empty": true,
+  "s13": {
+    "claim": "real maximum-cut 6+6 implies r=u<=2",
+    "status": "deduplicated",
+    "derivation": [
+      "degree identity gives r=u",
+      "physical W restriction gives r<=3",
+      "class-(6,3,3) exact cut-improvement excludes r=3"
+    ],
+    "new_dependency": false
+  },
+  "local_622": {
+    "report_sha256": "c18a6893cfccb2711334ab868f38b65c1b302f57ba0506b4cbff6d2128d3c978",
+    "execution_summary_sha256": "04aa0961238d96a73e7ba561df4e5698733b89230543c30d08020ecd122f84a0",
+    "manifest_sha256": "f8e74458ea474c672f46a2f541b4ae6dfb39bf5a842bc7773f871ce40acb4ac1",
+    "scope": "complete source-valid normalized class; full 155-kernel domain and complete MC subset checks recorded",
+    "mathematics_reexecuted_this_turn": false
+  },
+  "local_633": {
+    "report_sha256": "e691d0ad0aac41ad7949d51bf859a2d078dc0f26befc8f729d20999c035b9420",
+    "execution_sha256": "09d1c564e4e82b5001a55451e867c415471c876f326d7f1b67d124458eeb7e37",
+    "certificate_sha256": "4fed65d54a9ca52fd73106eba9dd90eda5e755719a5eb244482fdf59330b50ea",
+    "manifest_sha256": "2a7f88cf8700b0f4869233f1f930aa695f29741df435371d12801bd0706682fd",
+    "scope": "complete cut-improvement proof; 930 full-kernel controls and complete MC checks on six residual fixtures recorded",
+    "mathematics_reexecuted_this_turn": false
+  },
+  "s07": {
+    "claim": "complete 7+7 / |F|=4 range",
+    "arithmetic_scope": [7,7,2,2],
+    "fixed_artifact_found": false,
+    "admitted_as_dependency": false,
+    "reason": "No fixed S07 artifact/manifest/full-kernel/MC receipt found in fresh main, Issue #3, or available local integration inputs."
+  },
+  "frontier": {
+    "repository_current_order18": [[6,7,4,1],[7,7,2,2]],
+    "conditional_after_s07_order18": [[6,7,4,1]],
+    "order20": [[6,8,6,0],[7,7,3,3],[7,8,4,1],[8,8,2,2]]
+  }
+}
