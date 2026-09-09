@@ -1,0 +1,20 @@
+{
+  "verdict": "candidate_only",
+  "state": "NONTERMINAL_CHECKPOINT",
+  "best_verified_result": "none",
+  "base_revision": "fa39349a6ec4fba957c97157b8fd79ca5b3a625c",
+  "integrated": [
+    "(6,2,2) complete candidate",
+    "(6,3,3) maximum-cut exclusion",
+    "S13 6+6 r=u<=2 deduplicated"
+  ],
+  "s07_status": "fixed certificate not found in fresh main/Issue/local integration inputs; not admitted",
+  "repository_current_frontier_order18": [[6,7,4,1],[7,7,2,2]],
+  "conditional_after_s07_order18": [[6,7,4,1]],
+  "order20_frontier": [[6,8,6,0],[7,7,3,3],[7,8,4,1],[8,8,2,2]],
+  "first_nonexcluded_conditional_on_s07": [6,7,4,1],
+  "next_action": "Obtain or locate the fixed S07 7+7/F=4 artifact for source-valid replay; otherwise attack (6,7,4,1) without assuming S07. Do not rerun 622/633 finite kernels.",
+  "general_EXIT": false,
+  "root_closed": false,
+  "trusted_closure": false
+}
